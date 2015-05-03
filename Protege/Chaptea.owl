@@ -26,16 +26,25 @@
         <Class IRI="#Actividad"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Adaptacion_Curricular"/>
+        <Class IRI="#AdaptacionCurricular"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ciencias_Naturales"/>
+        <Class IRI="#Calendario"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ciencias_Sociales"/>
+        <Class IRI="#CienciasNaturales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CienciasSociales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Color"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Competencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comunicacion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Conocimiento"/>
@@ -44,13 +53,34 @@
         <Class IRI="#Diagnostico"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#EstiloDeAprendizaje"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Lengua"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Matematicas"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Motivacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Necesidad"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Persona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pictograma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sentimiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Adaptacion"/>
@@ -59,18 +89,92 @@
         <DataProperty IRI="#Escritura"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#Fecha"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#Grado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hora"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Imagen"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Lectura"/>
     </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sonido"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TiempoDeAtencion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Almorzar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bañarse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cambiarse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cenar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Desayunar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dormir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enojado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feliz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LavarseLasManos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Levantarse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Memoristico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Merendar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pensamiento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Repeticion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Triste"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Sinonimo"/>
+    </Declaration>
     <SubClassOf>
-        <Class IRI="#Ciencias_Naturales"/>
-        <Class IRI="#Adaptacion_Curricular"/>
+        <Class IRI="#Actividad"/>
+        <Class IRI="#Calendario"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Ciencias_Sociales"/>
-        <Class IRI="#Adaptacion_Curricular"/>
+        <Class IRI="#CienciasNaturales"/>
+        <Class IRI="#AdaptacionCurricular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CienciasSociales"/>
+        <Class IRI="#AdaptacionCurricular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Color"/>
+        <Class IRI="#Motivacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Competencia"/>
@@ -85,13 +189,97 @@
         <Class IRI="#Persona"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <Class IRI="#Diagnostico"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Lengua"/>
-        <Class IRI="#Adaptacion_Curricular"/>
+        <Class IRI="#AdaptacionCurricular"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Matematicas"/>
-        <Class IRI="#Adaptacion_Curricular"/>
+        <Class IRI="#AdaptacionCurricular"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musica"/>
+        <Class IRI="#Motivacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Necesidad"/>
+        <Class IRI="#Comunicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pictograma"/>
+        <Class IRI="#Comunicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sentimiento"/>
+        <Class IRI="#Comunicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video"/>
+        <Class IRI="#Motivacion"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Actividad"/>
+        <NamedIndividual IRI="#Almorzar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actividad"/>
+        <NamedIndividual IRI="#Bañarse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actividad"/>
+        <NamedIndividual IRI="#Cambiarse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actividad"/>
+        <NamedIndividual IRI="#Cenar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actividad"/>
+        <NamedIndividual IRI="#Desayunar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actividad"/>
+        <NamedIndividual IRI="#Dormir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Enojado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Feliz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actividad"/>
+        <NamedIndividual IRI="#LavarseLasManos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actividad"/>
+        <NamedIndividual IRI="#Levantarse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <NamedIndividual IRI="#Memoristico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actividad"/>
+        <NamedIndividual IRI="#Merendar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <NamedIndividual IRI="#Pensamiento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <NamedIndividual IRI="#Repeticion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Triste"/>
+    </ClassAssertion>
     <DataPropertyDomain>
         <DataProperty IRI="#Adaptacion"/>
         <Class IRI="#Competencia"/>
@@ -101,12 +289,40 @@
         <Class IRI="#Conocimiento"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#Fecha"/>
+        <Class IRI="#Calendario"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#Grado"/>
         <Class IRI="#Competencia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#Hora"/>
+        <Class IRI="#Calendario"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Imagen"/>
+        <Class IRI="#Pictograma"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#Lectura"/>
         <Class IRI="#Conocimiento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nombre"/>
+        <Class IRI="#Persona"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nombre"/>
+        <Class IRI="#Pictograma"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sonido"/>
+        <Class IRI="#Pictograma"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TiempoDeAtencion"/>
+        <Class IRI="#Diagnostico"/>
     </DataPropertyDomain>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -114,10 +330,22 @@
         <Literal datatypeIRI="&xsd;string">Referidas a actividades sociales del calendario</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#AdaptacionCurricular</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Recurso
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Adaptacion_Curricular</IRI>
+        <IRI>#AdaptacionCurricular</IRI>
         <Literal datatypeIRI="&xsd;string">Referidas al area Lengua, Naturales, Sociales, Matematicas 
 Actividades ludicas en la casa e institucion escolar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Motivacion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Interes
+</Literal>
     </AnnotationAssertion>
 </Ontology>
 
