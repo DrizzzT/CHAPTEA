@@ -1,0 +1,14 @@
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\bin\Debug\App1.dll
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\bin\Debug\App1.pdb
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\bin\Debug\App1.dll.mdb
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\bin\Debug\App1.App1.apk
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\bin\Debug\App1.App1-Signed.apk
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\obj\Debug\App1.dll
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\obj\Debug\App1.pdb
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\obj\Debug\android\bin\App1.App1.apk
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\obj\Debug\res\layout\main.xml
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\obj\Debug\res\values\strings.xml
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\obj\Debug\res\drawable\icon.png
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\obj\Debug\R.cs.flag
+C:\Users\Fabio\Documents\GitHub\CHAPTEA\Projects\App1\App1\obj\Debug\uploadflags.txt
