@@ -29,6 +29,18 @@
         <Class IRI="#AdaptacionCurricular"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Alimentacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aseo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autonomia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bebida"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Calendario"/>
     </Declaration>
     <Declaration>
@@ -39,6 +51,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comida"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Competencia"/>
@@ -57,6 +72,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Lengua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lugar"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Matematicas"/>
@@ -80,7 +98,25 @@
         <Class IRI="#Sentimiento"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Vestido"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Video"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceCalendario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#representaActividdad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#representaComunicacion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneActividad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tienePictograma"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Adaptacion"/>
@@ -161,8 +197,20 @@
         <AnnotationProperty IRI="#Sinonimo"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#Alimentacion"/>
+        <Class IRI="#Autonomia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aseo"/>
+        <Class IRI="#Autonomia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autonomia"/>
         <Class IRI="#Actividad"/>
-        <Class IRI="#Calendario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bebida"/>
+        <Class IRI="#Alimentacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CienciasNaturales"/>
@@ -175,6 +223,10 @@
     <SubClassOf>
         <Class IRI="#Color"/>
         <Class IRI="#Motivacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comida"/>
+        <Class IRI="#Alimentacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Competencia"/>
@@ -197,6 +249,10 @@
         <Class IRI="#AdaptacionCurricular"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Lugar"/>
+        <Class IRI="#Autonomia"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Matematicas"/>
         <Class IRI="#AdaptacionCurricular"/>
     </SubClassOf>
@@ -209,12 +265,12 @@
         <Class IRI="#Comunicacion"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Pictograma"/>
+        <Class IRI="#Sentimiento"/>
         <Class IRI="#Comunicacion"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Sentimiento"/>
-        <Class IRI="#Comunicacion"/>
+        <Class IRI="#Vestido"/>
+        <Class IRI="#Autonomia"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Video"/>
@@ -280,6 +336,54 @@
         <Class IRI="#Sentimiento"/>
         <NamedIndividual IRI="#Triste"/>
     </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneActividad"/>
+        <ObjectProperty IRI="#perteneceCalendario"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceCalendario"/>
+        <Class IRI="#Actividad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#representaActividdad"/>
+        <Class IRI="#Pictograma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#representaComunicacion"/>
+        <Class IRI="#Pictograma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneActividad"/>
+        <Class IRI="#Calendario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tienePictograma"/>
+        <Class IRI="#Actividad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tienePictograma"/>
+        <Class IRI="#Comunicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceCalendario"/>
+        <Class IRI="#Calendario"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#representaActividdad"/>
+        <Class IRI="#Actividad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#representaComunicacion"/>
+        <Class IRI="#Comunicacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneActividad"/>
+        <Class IRI="#Actividad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tienePictograma"/>
+        <Class IRI="#Pictograma"/>
+    </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#Adaptacion"/>
         <Class IRI="#Competencia"/>
@@ -340,6 +444,16 @@
         <IRI>#AdaptacionCurricular</IRI>
         <Literal datatypeIRI="&xsd;string">Referidas al area Lengua, Naturales, Sociales, Matematicas 
 Actividades ludicas en la casa e institucion escolar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Lugar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Desplazamiento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Lugar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Orientacion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
