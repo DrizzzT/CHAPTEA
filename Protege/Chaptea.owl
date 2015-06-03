@@ -26,16 +26,22 @@
         <Class IRI="#Actividad"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AdaptacionCurricular"/>
+        <Class IRI="#Acuaticos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aereos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AjustesRazonables"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Alimentacion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Aseo"/>
+        <Class IRI="#Animal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Autonomia"/>
+        <Class IRI="#Aseo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bebida"/>
@@ -44,10 +50,22 @@
         <Class IRI="#Calendario"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Calzado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casa"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CienciasNaturales"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CienciasSociales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clima"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Color"/>
@@ -62,13 +80,46 @@
         <Class IRI="#Comunicacion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Conocimiento"/>
+        <Class IRI="#Cualidad"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Diagnostico"/>
+        <Class IRI="#Cuerpo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electrodomestico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Escuela"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Espacial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estacion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EstiloDeAprendizaje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Golosina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imagen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insectos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JuegosDeMesa"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Lengua"/>
@@ -80,13 +131,34 @@
         <Class IRI="#Matematicas"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Mes"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Motivacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mueble"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mujer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Musica"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Necesidad"/>
+        <Class IRI="#Objeto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parentezco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pasta"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Persona"/>
@@ -95,10 +167,43 @@
         <Class IRI="#Pictograma"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Planta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recreacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semana"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Sentimiento"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Vestido"/>
+        <Class IRI="#Temporal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terrestres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Varon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vestimenta"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Video"/>
@@ -149,63 +254,1115 @@
         <DataProperty IRI="#TiempoDeAtencion"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Abajo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abogado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abril"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abstraccion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abuela"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abuelo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aburrido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adelante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Agosto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Agua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aguila"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ahora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ajedrez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alfajor"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Almorzar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amarillo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amiga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amigo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anaranjado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anchi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AntesDeAyer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Araña"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arbol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arrepentido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arriba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArrozConLeche"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AsistenteSocial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atencion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aula"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Azul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bailar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bajo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Balcon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ballena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basquet"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bañarse"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Baño"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Biblioteca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bicicleta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bizcocho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blanco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bombacha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bombero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boxer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brazo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caballo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cabello"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cabeza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cabra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cafe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caluroso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calzoncillo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cama"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Cambiarse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camisa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camiseta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Campera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cansado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cantar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Capeletinis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caramelo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carnicero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cartas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cartuchera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Celeste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Celular"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cenar"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#CepillarseLosDientes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cerca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cerdo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cerveza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chancho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chicle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chivo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chocolatada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chocolate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Choripan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chupetin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cienpies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Circular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clavel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Club"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cocina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Codo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colectivo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comedor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computadora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Condor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Contar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cordero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Corpiño"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cruz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuaderno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuadrada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cucaracha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Damas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dedo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Delfin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dentro"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Desayunar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Despues"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dibujar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diciembre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Direccion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dolorido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Domingo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Domino"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dormir"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Durazno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elefante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Empanada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enamorado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enfermero"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Enojado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ensalada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnsaladaDeFruta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EquipoDeMusica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Escribir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Escuchar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Escuela"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Espalda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Factura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Febrero"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Feliz"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Feo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fideo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flaco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Foca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Frente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Frio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fuera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Futbol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Galleta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gallina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ganzo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Garage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gaseosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gato"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gelatina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gimnasia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Goma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gordo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grillo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Habitacion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hablar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Halcon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hambriento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hamburguesa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heladera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Helado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hermana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hermano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hoja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hombro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hormiga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hospital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Identificar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iglesia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingeniero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InspectorTransito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Invierno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jirafa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Juego"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jueves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jugo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Junio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kiosco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kiosquero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kiwi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lapicera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lapiz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lavarropa"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#LavarseLasManos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leche"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LectoEscritura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lejos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leon"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Levantarse"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Memoristico"/>
+        <NamedIndividual IRI="#Licuado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Limpio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lindo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Llama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lluvioso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lobo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LoboMarino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Locro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lombriz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luciernaga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lunes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maestro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manzana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Margarita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mariposa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Martes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marzo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Masita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matambre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mayo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mañana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Media"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Melon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Memoria"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Merendar"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Pensamiento"/>
+        <NamedIndividual IRI="#Mesa"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Repeticion"/>
+        <NamedIndividual IRI="#Microonda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Miedoso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Miercoles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Miga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mignon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Milanesa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mochila"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Modular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monopatin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monopolio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Musculosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muñeca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Naranja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nariz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Natacion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Negro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nervioso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nevado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Niñera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Novia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Noviembre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Novio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nublado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Numeracion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Octubre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oficial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ojo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ojota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Orca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ordenar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oreja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oruga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Otoño"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oveja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Padel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pajaro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paloma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pancho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pantalon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pantufla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Papa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parchis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parque"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PasadoMañana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patineta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pato"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PavoReal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pescado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pierna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pinguino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pintar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plaza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Policia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pollera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pollo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pomelo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prima"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Primavera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Primo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Profesor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ravioles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Razonamiento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rectangular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Remera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Remis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rodilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rojo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rollers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rompecabezas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sabado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saltamontes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sandalia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sandia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Secarropa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Secretaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seleccionar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Septiembre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Silla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soleado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sucio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Supermercado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tacos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tamales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tarta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Te"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teatro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Telefono"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Television"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Templado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tenis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Terraza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiburon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Torta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Triangular"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Triste"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Tucan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vaca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ventoso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Verano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Verde"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Verduleria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Verdulero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Verdura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vergonzoso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vestido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Veterinaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Veterinario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vicuña"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Viernes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Violeta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Voley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yogurt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zapatilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zapato"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zorro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ñoquis"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="#Sinonimo"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#Acuaticos"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aereos"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Alimentacion"/>
-        <Class IRI="#Autonomia"/>
+        <Class IRI="#Actividad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal"/>
+        <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Aseo"/>
-        <Class IRI="#Autonomia"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Autonomia"/>
         <Class IRI="#Actividad"/>
     </SubClassOf>
     <SubClassOf>
@@ -213,12 +1370,28 @@
         <Class IRI="#Alimentacion"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Calzado"/>
+        <Class IRI="#Vestimenta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carne"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Casa"/>
+        <Class IRI="#Lugar"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CienciasNaturales"/>
-        <Class IRI="#AdaptacionCurricular"/>
+        <Class IRI="#AjustesRazonables"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CienciasSociales"/>
-        <Class IRI="#AdaptacionCurricular"/>
+        <Class IRI="#AjustesRazonables"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clima"/>
+        <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Color"/>
@@ -233,108 +1406,1688 @@
         <Class IRI="#Persona"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Conocimiento"/>
-        <Class IRI="#Persona"/>
+        <Class IRI="#Cualidad"/>
+        <Class IRI="#Cuerpo"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Diagnostico"/>
-        <Class IRI="#Persona"/>
+        <Class IRI="#Cuerpo"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deporte"/>
+        <Class IRI="#Actividad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electrodomestico"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Escuela"/>
+        <Class IRI="#Lugar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espacial"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estacion"/>
+        <Class IRI="#Temporal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EstiloDeAprendizaje"/>
-        <Class IRI="#Diagnostico"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forma"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruta"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golosina"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imagen"/>
+        <Class IRI="#Motivacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insectos"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JuegosDeMesa"/>
+        <Class IRI="#Recreacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lengua"/>
-        <Class IRI="#AdaptacionCurricular"/>
+        <Class IRI="#AjustesRazonables"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lugar"/>
-        <Class IRI="#Autonomia"/>
+        <Class IRI="#Actividad"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Matematicas"/>
-        <Class IRI="#AdaptacionCurricular"/>
+        <Class IRI="#AjustesRazonables"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mes"/>
+        <Class IRI="#Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mueble"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mujer"/>
+        <Class IRI="#Vestimenta"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Musica"/>
         <Class IRI="#Motivacion"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Necesidad"/>
-        <Class IRI="#Comunicacion"/>
+        <Class IRI="#Objeto"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pan"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parentezco"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parte"/>
+        <Class IRI="#Cuerpo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pasta"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planta"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postre"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profesion"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recreacion"/>
+        <Class IRI="#Actividad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sandwich"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semana"/>
+        <Class IRI="#Temporal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sentimiento"/>
         <Class IRI="#Comunicacion"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Vestido"/>
-        <Class IRI="#Autonomia"/>
+        <Class IRI="#Temporal"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terrestres"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transporte"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utiles"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Varon"/>
+        <Class IRI="#Vestimenta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vestimenta"/>
+        <Class IRI="#Actividad"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Video"/>
         <Class IRI="#Motivacion"/>
     </SubClassOf>
     <ClassAssertion>
+        <Class IRI="#Espacial"/>
+        <NamedIndividual IRI="#Abajo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Abogado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Abril"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <NamedIndividual IRI="#Abstraccion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Abuela"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Abuelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Aburrido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Espacial"/>
+        <NamedIndividual IRI="#Adelante"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Agosto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Agua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aereos"/>
+        <NamedIndividual IRI="#Aguila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temporal"/>
+        <NamedIndividual IRI="#Ahora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Ajedrez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Golosina"/>
+        <NamedIndividual IRI="#Alfajor"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Actividad"/>
         <NamedIndividual IRI="#Almorzar"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Actividad"/>
+        <Class IRI="#Cualidad"/>
+        <NamedIndividual IRI="#Alto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Amarillo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Amiga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Amigo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Anaranjado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postre"/>
+        <NamedIndividual IRI="#Anchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temporal"/>
+        <NamedIndividual IRI="#Antes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temporal"/>
+        <NamedIndividual IRI="#AntesDeAyer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insectos"/>
+        <NamedIndividual IRI="#Araña"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planta"/>
+        <NamedIndividual IRI="#Arbol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Arrepentido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Espacial"/>
+        <NamedIndividual IRI="#Arriba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postre"/>
+        <NamedIndividual IRI="#ArrozConLeche"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carne"/>
+        <NamedIndividual IRI="#Asado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#AsistenteSocial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <NamedIndividual IRI="#Atencion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Espacial"/>
+        <NamedIndividual IRI="#Atras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Escuela"/>
+        <NamedIndividual IRI="#Aula"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transporte"/>
+        <NamedIndividual IRI="#Auto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temporal"/>
+        <NamedIndividual IRI="#Ayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Azul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recreacion"/>
+        <NamedIndividual IRI="#Bailar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cualidad"/>
+        <NamedIndividual IRI="#Bajo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Balcon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acuaticos"/>
+        <NamedIndividual IRI="#Ballena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruta"/>
+        <NamedIndividual IRI="#Banana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Deporte"/>
+        <NamedIndividual IRI="#Basquet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aseo"/>
         <NamedIndividual IRI="#Bañarse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Baño"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Escuela"/>
+        <NamedIndividual IRI="#Baño"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Biblioteca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transporte"/>
+        <NamedIndividual IRI="#Bicicleta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carne"/>
+        <NamedIndividual IRI="#Bife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pan"/>
+        <NamedIndividual IRI="#Bizcocho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Blanco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Boca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Bombacha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Bombero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calzado"/>
+        <NamedIndividual IRI="#Bota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Boxer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Brazo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Caballo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Cabello"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Cabeza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Cabra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Cafe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clima"/>
+        <NamedIndividual IRI="#Caluroso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Calzoncillo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mueble"/>
+        <NamedIndividual IRI="#Cama"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Actividad"/>
         <NamedIndividual IRI="#Cambiarse"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Camisa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Camisa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Camiseta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Camiseta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Campera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Campera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Cansado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recreacion"/>
+        <NamedIndividual IRI="#Cantar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pasta"/>
+        <NamedIndividual IRI="#Capeletinis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Golosina"/>
+        <NamedIndividual IRI="#Caramelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Carnicero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Cartas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Utiles"/>
+        <NamedIndividual IRI="#Cartuchera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Casa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Celeste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Celular"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Actividad"/>
         <NamedIndividual IRI="#Cenar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aseo"/>
+        <NamedIndividual IRI="#CepillarseLosDientes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Espacial"/>
+        <NamedIndividual IRI="#Cerca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Cerdo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Cerveza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carne"/>
+        <NamedIndividual IRI="#Chancho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Golosina"/>
+        <NamedIndividual IRI="#Chicle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Chivo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Chocolatada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Golosina"/>
+        <NamedIndividual IRI="#Chocolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carne"/>
+        <NamedIndividual IRI="#Choripan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sandwich"/>
+        <NamedIndividual IRI="#Choripan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Golosina"/>
+        <NamedIndividual IRI="#Chupetin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insectos"/>
+        <NamedIndividual IRI="#Cienpies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Cine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Forma"/>
+        <NamedIndividual IRI="#Circular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planta"/>
+        <NamedIndividual IRI="#Clavel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Club"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Escuela"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Codo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Cola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transporte"/>
+        <NamedIndividual IRI="#Colectivo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Comedor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Computadora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aereos"/>
+        <NamedIndividual IRI="#Condor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competencia"/>
+        <NamedIndividual IRI="#Contar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carne"/>
+        <NamedIndividual IRI="#Cordero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Corpiño"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Forma"/>
+        <NamedIndividual IRI="#Cruz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Utiles"/>
+        <NamedIndividual IRI="#Cuaderno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Forma"/>
+        <NamedIndividual IRI="#Cuadrada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insectos"/>
+        <NamedIndividual IRI="#Cucaracha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Dados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Damas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Dedo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acuaticos"/>
+        <NamedIndividual IRI="#Delfin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Espacial"/>
+        <NamedIndividual IRI="#Dentro"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Actividad"/>
         <NamedIndividual IRI="#Desayunar"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Temporal"/>
+        <NamedIndividual IRI="#Despues"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recreacion"/>
+        <NamedIndividual IRI="#Dibujar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Diciembre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Escuela"/>
+        <NamedIndividual IRI="#Direccion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Dolorido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Semana"/>
+        <NamedIndividual IRI="#Domingo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Domino"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Actividad"/>
         <NamedIndividual IRI="#Dormir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruta"/>
+        <NamedIndividual IRI="#Durazno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Elefante"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comida"/>
+        <NamedIndividual IRI="#Empanada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Enamorado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Enero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Enfermero"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sentimiento"/>
         <NamedIndividual IRI="#Enojado"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Comida"/>
+        <NamedIndividual IRI="#Ensalada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postre"/>
+        <NamedIndividual IRI="#EnsaladaDeFruta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#EquipoDeMusica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competencia"/>
+        <NamedIndividual IRI="#Escribir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competencia"/>
+        <NamedIndividual IRI="#Escuchar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Escuela"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Espalda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pan"/>
+        <NamedIndividual IRI="#Factura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Febrero"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Sentimiento"/>
         <NamedIndividual IRI="#Feliz"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Actividad"/>
+        <Class IRI="#Cualidad"/>
+        <NamedIndividual IRI="#Feo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Feria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pasta"/>
+        <NamedIndividual IRI="#Fideo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cualidad"/>
+        <NamedIndividual IRI="#Flaco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postre"/>
+        <NamedIndividual IRI="#Flan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acuaticos"/>
+        <NamedIndividual IRI="#Foca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Frente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clima"/>
+        <NamedIndividual IRI="#Frio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Espacial"/>
+        <NamedIndividual IRI="#Fuera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Deporte"/>
+        <NamedIndividual IRI="#Futbol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pan"/>
+        <NamedIndividual IRI="#Galleta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Gallina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Ganzo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Garage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Gaseosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Gato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postre"/>
+        <NamedIndividual IRI="#Gelatina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Deporte"/>
+        <NamedIndividual IRI="#Gimnasia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Utiles"/>
+        <NamedIndividual IRI="#Goma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cualidad"/>
+        <NamedIndividual IRI="#Gordo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insectos"/>
+        <NamedIndividual IRI="#Grillo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Habitacion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competencia"/>
+        <NamedIndividual IRI="#Hablar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aereos"/>
+        <NamedIndividual IRI="#Halcon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Hambriento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carne"/>
+        <NamedIndividual IRI="#Hamburguesa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sandwich"/>
+        <NamedIndividual IRI="#Hamburguesa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Heladera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postre"/>
+        <NamedIndividual IRI="#Helado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Hermana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Hermano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Utiles"/>
+        <NamedIndividual IRI="#Hoja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Hombro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insectos"/>
+        <NamedIndividual IRI="#Hormiga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Hospital"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Hotel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temporal"/>
+        <NamedIndividual IRI="#Hoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competencia"/>
+        <NamedIndividual IRI="#Identificar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Iglesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Ingeniero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#InspectorTransito"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Estacion"/>
+        <NamedIndividual IRI="#Invierno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Jean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Jean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Jirafa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Juego"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Semana"/>
+        <NamedIndividual IRI="#Jueves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Jugo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Julio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Junio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Kiosco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Kiosquero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruta"/>
+        <NamedIndividual IRI="#Kiwi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Utiles"/>
+        <NamedIndividual IRI="#Lapicera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Utiles"/>
+        <NamedIndividual IRI="#Lapiz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Lavarropa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aseo"/>
         <NamedIndividual IRI="#LavarseLasManos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Leche"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <NamedIndividual IRI="#LectoEscritura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competencia"/>
+        <NamedIndividual IRI="#Leer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Espacial"/>
+        <NamedIndividual IRI="#Lejos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Leon"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Actividad"/>
         <NamedIndividual IRI="#Levantarse"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Licuado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cualidad"/>
+        <NamedIndividual IRI="#Limpio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cualidad"/>
+        <NamedIndividual IRI="#Lindo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Llama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clima"/>
+        <NamedIndividual IRI="#Lluvioso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Lobo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acuaticos"/>
+        <NamedIndividual IRI="#LoboMarino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comida"/>
+        <NamedIndividual IRI="#Locro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insectos"/>
+        <NamedIndividual IRI="#Lombriz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aereos"/>
+        <NamedIndividual IRI="#Loro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insectos"/>
+        <NamedIndividual IRI="#Luciernaga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Semana"/>
+        <NamedIndividual IRI="#Lunes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Maestro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Mama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Mano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruta"/>
+        <NamedIndividual IRI="#Manzana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planta"/>
+        <NamedIndividual IRI="#Margarita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insectos"/>
+        <NamedIndividual IRI="#Mariposa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Semana"/>
+        <NamedIndividual IRI="#Martes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Marzo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pan"/>
+        <NamedIndividual IRI="#Masita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carne"/>
+        <NamedIndividual IRI="#Matambre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Mate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Maya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Maya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Mayo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temporal"/>
+        <NamedIndividual IRI="#Mañana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Media"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Media"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Medico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruta"/>
+        <NamedIndividual IRI="#Melon"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Memoristico"/>
+        <NamedIndividual IRI="#Memoria"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Actividad"/>
         <NamedIndividual IRI="#Merendar"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Pensamiento"/>
+        <Class IRI="#Mueble"/>
+        <NamedIndividual IRI="#Mesa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Microonda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Miedoso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Semana"/>
+        <NamedIndividual IRI="#Miercoles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sandwich"/>
+        <NamedIndividual IRI="#Miga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pan"/>
+        <NamedIndividual IRI="#Mignon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carne"/>
+        <NamedIndividual IRI="#Milanesa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sandwich"/>
+        <NamedIndividual IRI="#Milanesa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Utiles"/>
+        <NamedIndividual IRI="#Mochila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mueble"/>
+        <NamedIndividual IRI="#Modular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transporte"/>
+        <NamedIndividual IRI="#Monopatin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Monopolio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transporte"/>
+        <NamedIndividual IRI="#Moto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Musculosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Musculosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Muñeca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruta"/>
+        <NamedIndividual IRI="#Naranja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Nariz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Deporte"/>
+        <NamedIndividual IRI="#Natacion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Negro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Nervioso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clima"/>
+        <NamedIndividual IRI="#Nevado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Niñera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Novia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Noviembre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Novio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clima"/>
+        <NamedIndividual IRI="#Nublado"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Repeticion"/>
+        <NamedIndividual IRI="#Numeracion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Octubre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Oficial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Ojo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calzado"/>
+        <NamedIndividual IRI="#Ojota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acuaticos"/>
+        <NamedIndividual IRI="#Orca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competencia"/>
+        <NamedIndividual IRI="#Ordenar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Oreja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insectos"/>
+        <NamedIndividual IRI="#Oruga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Estacion"/>
+        <NamedIndividual IRI="#Otoño"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Oveja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Deporte"/>
+        <NamedIndividual IRI="#Padel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aereos"/>
+        <NamedIndividual IRI="#Pajaro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aereos"/>
+        <NamedIndividual IRI="#Paloma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sandwich"/>
+        <NamedIndividual IRI="#Pancho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Pantalon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Pantalon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calzado"/>
+        <NamedIndividual IRI="#Pantufla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Papa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Parchis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Parque"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temporal"/>
+        <NamedIndividual IRI="#PasadoMañana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transporte"/>
+        <NamedIndividual IRI="#Patineta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Patio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Escuela"/>
+        <NamedIndividual IRI="#Patio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Pato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#PavoReal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruta"/>
+        <NamedIndividual IRI="#Pera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Perro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carne"/>
+        <NamedIndividual IRI="#Pescado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acuaticos"/>
+        <NamedIndividual IRI="#Pez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Pie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Pierna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acuaticos"/>
+        <NamedIndividual IRI="#Pinguino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recreacion"/>
+        <NamedIndividual IRI="#Pintar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Plaza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Polera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Polera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Policia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Pollera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carne"/>
+        <NamedIndividual IRI="#Pollo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sandwich"/>
+        <NamedIndividual IRI="#Pollo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruta"/>
+        <NamedIndividual IRI="#Pomelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Prima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Estacion"/>
+        <NamedIndividual IRI="#Primavera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Primo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Profesor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comida"/>
+        <NamedIndividual IRI="#Pure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pasta"/>
+        <NamedIndividual IRI="#Ravioles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <NamedIndividual IRI="#Razonamiento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Forma"/>
+        <NamedIndividual IRI="#Rectangular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Remera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Varon"/>
+        <NamedIndividual IRI="#Remera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transporte"/>
+        <NamedIndividual IRI="#Remis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parte"/>
+        <NamedIndividual IRI="#Rodilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Rojo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transporte"/>
+        <NamedIndividual IRI="#Rollers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Rompecabezas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planta"/>
+        <NamedIndividual IRI="#Rosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Semana"/>
+        <NamedIndividual IRI="#Sabado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insectos"/>
+        <NamedIndividual IRI="#Saltamontes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calzado"/>
+        <NamedIndividual IRI="#Sandalia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruta"/>
+        <NamedIndividual IRI="#Sandia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Secarropa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Escuela"/>
+        <NamedIndividual IRI="#Secretaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Competencia"/>
+        <NamedIndividual IRI="#Seleccionar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mes"/>
+        <NamedIndividual IRI="#Septiembre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Shopping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mueble"/>
+        <NamedIndividual IRI="#Silla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clima"/>
+        <NamedIndividual IRI="#Soleado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cualidad"/>
+        <NamedIndividual IRI="#Sucio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Supermercado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comida"/>
+        <NamedIndividual IRI="#Tacos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comida"/>
+        <NamedIndividual IRI="#Tamales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comida"/>
+        <NamedIndividual IRI="#Tarta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Te"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Teatro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Telefono"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Television"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clima"/>
+        <NamedIndividual IRI="#Templado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Deporte"/>
+        <NamedIndividual IRI="#Tenis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Terraza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Tia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acuaticos"/>
+        <NamedIndividual IRI="#Tiburon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentezco"/>
+        <NamedIndividual IRI="#Tio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Toro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postre"/>
+        <NamedIndividual IRI="#Torta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Forma"/>
+        <NamedIndividual IRI="#Triangular"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sentimiento"/>
         <NamedIndividual IRI="#Triste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aereos"/>
+        <NamedIndividual IRI="#Tucan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruta"/>
+        <NamedIndividual IRI="#Uva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Vaca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clima"/>
+        <NamedIndividual IRI="#Ventoso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Estacion"/>
+        <NamedIndividual IRI="#Verano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Verde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Verduleria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Verdulero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comida"/>
+        <NamedIndividual IRI="#Verdura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sandwich"/>
+        <NamedIndividual IRI="#Verdura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentimiento"/>
+        <NamedIndividual IRI="#Vergonzoso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Vestido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lugar"/>
+        <NamedIndividual IRI="#Veterinaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profesion"/>
+        <NamedIndividual IRI="#Veterinario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Vicuña"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Semana"/>
+        <NamedIndividual IRI="#Viernes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Vino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Violeta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Deporte"/>
+        <NamedIndividual IRI="#Voley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Yogurt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calzado"/>
+        <NamedIndividual IRI="#Zapatilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calzado"/>
+        <NamedIndividual IRI="#Zapato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestres"/>
+        <NamedIndividual IRI="#Zorro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pasta"/>
+        <NamedIndividual IRI="#Ñoquis"/>
     </ClassAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="#tieneActividad"/>
@@ -389,10 +3142,6 @@
         <Class IRI="#Competencia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Escritura"/>
-        <Class IRI="#Conocimiento"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#Fecha"/>
         <Class IRI="#Calendario"/>
     </DataPropertyDomain>
@@ -409,10 +3158,6 @@
         <Class IRI="#Pictograma"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Lectura"/>
-        <Class IRI="#Conocimiento"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#Nombre"/>
         <Class IRI="#Persona"/>
     </DataPropertyDomain>
@@ -424,10 +3169,6 @@
         <DataProperty IRI="#Sonido"/>
         <Class IRI="#Pictograma"/>
     </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#TiempoDeAtencion"/>
-        <Class IRI="#Diagnostico"/>
-    </DataPropertyDomain>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Actividad</IRI>
@@ -435,13 +3176,19 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
-        <IRI>#AdaptacionCurricular</IRI>
+        <IRI>#AjustesRazonables</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Adaptaciones Curriculares
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#AjustesRazonables</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Recurso
 </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#AdaptacionCurricular</IRI>
+        <IRI>#AjustesRazonables</IRI>
         <Literal datatypeIRI="&xsd;string">Referidas al area Lengua, Naturales, Sociales, Matematicas 
 Actividades ludicas en la casa e institucion escolar</Literal>
     </AnnotationAssertion>
