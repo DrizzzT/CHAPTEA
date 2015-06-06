@@ -68,9 +68,6 @@
         <Class IRI="#Clima"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Color"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Comida"/>
     </Declaration>
     <Declaration>
@@ -87,6 +84,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Deporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ejercicio"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Electrodomestico"/>
@@ -113,9 +113,6 @@
         <Class IRI="#Golosina"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Imagen"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Insectos"/>
     </Declaration>
     <Declaration>
@@ -134,16 +131,10 @@
         <Class IRI="#Mes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Motivacion"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Mueble"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mujer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Musica"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Objeto"/>
@@ -206,7 +197,13 @@
         <Class IRI="#Vestimenta"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Video"/>
+        <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#determinadoPorCompetencia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#identificaPersona"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#perteneceCalendario"/>
@@ -219,6 +216,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#tieneActividad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneCompetencia"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#tienePictograma"/>
@@ -1394,16 +1394,8 @@
         <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Color"/>
-        <Class IRI="#Motivacion"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Comida"/>
         <Class IRI="#Alimentacion"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Competencia"/>
-        <Class IRI="#Persona"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cualidad"/>
@@ -1434,10 +1426,6 @@
         <Class IRI="#Temporal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <Class IRI="#Persona"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Forma"/>
         <Class IRI="#Pictograma"/>
     </SubClassOf>
@@ -1448,10 +1436,6 @@
     <SubClassOf>
         <Class IRI="#Golosina"/>
         <Class IRI="#Comida"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Imagen"/>
-        <Class IRI="#Motivacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Insectos"/>
@@ -1484,10 +1468,6 @@
     <SubClassOf>
         <Class IRI="#Mujer"/>
         <Class IRI="#Vestimenta"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Musica"/>
-        <Class IRI="#Motivacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Objeto"/>
@@ -1561,10 +1541,6 @@
         <Class IRI="#Vestimenta"/>
         <Class IRI="#Actividad"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Video"/>
-        <Class IRI="#Motivacion"/>
-    </SubClassOf>
     <ClassAssertion>
         <Class IRI="#Espacial"/>
         <NamedIndividual IRI="#Abajo"/>
@@ -1630,20 +1606,12 @@
         <NamedIndividual IRI="#Alto"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Color"/>
-        <NamedIndividual IRI="#Amarillo"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Parentezco"/>
         <NamedIndividual IRI="#Amiga"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Parentezco"/>
         <NamedIndividual IRI="#Amigo"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Color"/>
-        <NamedIndividual IRI="#Anaranjado"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Postre"/>
@@ -1706,10 +1674,6 @@
         <NamedIndividual IRI="#Ayer"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Color"/>
-        <NamedIndividual IRI="#Azul"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Recreacion"/>
         <NamedIndividual IRI="#Bailar"/>
     </ClassAssertion>
@@ -1760,10 +1724,6 @@
     <ClassAssertion>
         <Class IRI="#Pan"/>
         <NamedIndividual IRI="#Bizcocho"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Color"/>
-        <NamedIndividual IRI="#Blanco"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Parte"/>
@@ -1880,10 +1840,6 @@
     <ClassAssertion>
         <Class IRI="#Lugar"/>
         <NamedIndividual IRI="#Casa"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Color"/>
-        <NamedIndividual IRI="#Celeste"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Electrodomestico"/>
@@ -2606,10 +2562,6 @@
         <NamedIndividual IRI="#Natacion"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Color"/>
-        <NamedIndividual IRI="#Negro"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Sentimiento"/>
         <NamedIndividual IRI="#Nervioso"/>
     </ClassAssertion>
@@ -2858,10 +2810,6 @@
         <NamedIndividual IRI="#Rodilla"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Color"/>
-        <NamedIndividual IRI="#Rojo"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Transporte"/>
         <NamedIndividual IRI="#Rollers"/>
     </ClassAssertion>
@@ -3014,10 +2962,6 @@
         <NamedIndividual IRI="#Verano"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Color"/>
-        <NamedIndividual IRI="#Verde"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Lugar"/>
         <NamedIndividual IRI="#Verduleria"/>
     </ClassAssertion>
@@ -3062,10 +3006,6 @@
         <NamedIndividual IRI="#Vino"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Color"/>
-        <NamedIndividual IRI="#Violeta"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Deporte"/>
         <NamedIndividual IRI="#Voley"/>
     </ClassAssertion>
@@ -3090,9 +3030,37 @@
         <NamedIndividual IRI="#Ñoquis"/>
     </ClassAssertion>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#determinadoPorCompetencia"/>
+        <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#identificaPersona"/>
+        <ObjectProperty IRI="#tieneCompetencia"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#tieneActividad"/>
         <ObjectProperty IRI="#perteneceCalendario"/>
     </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#representaActividdad"/>
+        <ObjectProperty IRI="#tienePictograma"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#representaComunicacion"/>
+        <ObjectProperty IRI="#tienePictograma"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
+        <Class IRI="#Competencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#determinadoPorCompetencia"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#identificaPersona"/>
+        <Class IRI="#Competencia"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#perteneceCalendario"/>
         <Class IRI="#Actividad"/>
@@ -3110,6 +3078,10 @@
         <Class IRI="#Calendario"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCompetencia"/>
+        <Class IRI="#Persona"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#tienePictograma"/>
         <Class IRI="#Actividad"/>
     </ObjectPropertyDomain>
@@ -3117,6 +3089,18 @@
         <ObjectProperty IRI="#tienePictograma"/>
         <Class IRI="#Comunicacion"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#determinadoPorCompetencia"/>
+        <Class IRI="#Competencia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#identificaPersona"/>
+        <Class IRI="#Persona"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#perteneceCalendario"/>
         <Class IRI="#Calendario"/>
@@ -3132,6 +3116,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#tieneActividad"/>
         <Class IRI="#Actividad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneCompetencia"/>
+        <Class IRI="#Competencia"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#tienePictograma"/>
@@ -3201,12 +3189,6 @@ Actividades ludicas en la casa e institucion escolar</Literal>
         <AnnotationProperty IRI="#Sinonimo"/>
         <IRI>#Lugar</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Orientacion</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#Sinonimo"/>
-        <IRI>#Motivacion</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Interes
-</Literal>
     </AnnotationAssertion>
 </Ontology>
 
