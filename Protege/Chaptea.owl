@@ -32,7 +32,7 @@
         <Class IRI="#Aereos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AjustesRazonables"/>
+        <Class IRI="#AjusteRazonable"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Alimentacion"/>
@@ -197,10 +197,22 @@
         <Class IRI="#Vestimenta"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#caracterizaCalendario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definidoPorAjusteRazonable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#determinaEjercicio"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#determinadoPorCompetencia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#determinadoPorEstilodeAprendizaje"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#identificaPersona"/>
@@ -209,19 +221,31 @@
         <ObjectProperty IRI="#perteneceCalendario"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#representaActividdad"/>
+        <ObjectProperty IRI="#representaActividad"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#representaComunicacion"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#resultadeEstiloDeAprendizaje"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#tieneActividad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAjusteRazonable"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#tieneCompetencia"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#tieneEstilodeAprendizaje"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#tienePictograma"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utilizaCompetencia"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Adaptacion"/>
@@ -1383,11 +1407,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CienciasNaturales"/>
-        <Class IRI="#AjustesRazonables"/>
+        <Class IRI="#AjusteRazonable"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CienciasSociales"/>
-        <Class IRI="#AjustesRazonables"/>
+        <Class IRI="#AjusteRazonable"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Clima"/>
@@ -1447,7 +1471,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lengua"/>
-        <Class IRI="#AjustesRazonables"/>
+        <Class IRI="#AjusteRazonable"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lugar"/>
@@ -1455,7 +1479,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Matematicas"/>
-        <Class IRI="#AjustesRazonables"/>
+        <Class IRI="#AjusteRazonable"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mes"/>
@@ -3030,32 +3054,76 @@
         <NamedIndividual IRI="#Ñoquis"/>
     </ClassAssertion>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#determinadoPorCompetencia"/>
-        <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
+        <ObjectProperty IRI="#utilizaCompetencia"/>
+        <ObjectProperty IRI="#caracterizaCalendario"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#identificaPersona"/>
+        <ObjectProperty IRI="#tieneEstilodeAprendizaje"/>
+        <ObjectProperty IRI="#definidoPorAjusteRazonable"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#determinaEjercicio"/>
+        <ObjectProperty IRI="#determinadoPorEstilodeAprendizaje"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
+        <ObjectProperty IRI="#determinadoPorCompetencia"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneAjusteRazonable"/>
+        <ObjectProperty IRI="#determinadoPorCompetencia"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#tieneCompetencia"/>
+        <ObjectProperty IRI="#identificaPersona"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#tieneActividad"/>
         <ObjectProperty IRI="#perteneceCalendario"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#representaActividdad"/>
+        <ObjectProperty IRI="#representaActividad"/>
         <ObjectProperty IRI="#tienePictograma"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#representaComunicacion"/>
         <ObjectProperty IRI="#tienePictograma"/>
     </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneAjusteRazonable"/>
+        <ObjectProperty IRI="#resultadeEstiloDeAprendizaje"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#resultadeEstiloDeAprendizaje"/>
+        <ObjectProperty IRI="#tieneEstilodeAprendizaje"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#caracterizaCalendario"/>
+        <Class IRI="#Competencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definidoPorAjusteRazonable"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#determinaEjercicio"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
         <Class IRI="#Competencia"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#determinadoPorCompetencia"/>
+        <Class IRI="#AjusteRazonable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#determinadoPorCompetencia"/>
         <Class IRI="#EstiloDeAprendizaje"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#determinadoPorEstilodeAprendizaje"/>
+        <Class IRI="#Ejercicio"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#identificaPersona"/>
@@ -3066,7 +3134,7 @@
         <Class IRI="#Actividad"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#representaActividdad"/>
+        <ObjectProperty IRI="#representaActividad"/>
         <Class IRI="#Pictograma"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -3074,12 +3142,28 @@
         <Class IRI="#Pictograma"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#resultadeEstiloDeAprendizaje"/>
+        <Class IRI="#AjusteRazonable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#tieneActividad"/>
         <Class IRI="#Calendario"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAjusteRazonable"/>
+        <Class IRI="#Competencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAjusteRazonable"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#tieneCompetencia"/>
         <Class IRI="#Persona"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneEstilodeAprendizaje"/>
+        <Class IRI="#AjusteRazonable"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#tienePictograma"/>
@@ -3089,6 +3173,22 @@
         <ObjectProperty IRI="#tienePictograma"/>
         <Class IRI="#Comunicacion"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utilizaCompetencia"/>
+        <Class IRI="#Calendario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#caracterizaCalendario"/>
+        <Class IRI="#Calendario"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definidoPorAjusteRazonable"/>
+        <Class IRI="#AjusteRazonable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#determinaEjercicio"/>
+        <Class IRI="#Ejercicio"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
         <Class IRI="#EstiloDeAprendizaje"/>
@@ -3096,6 +3196,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#determinadoPorCompetencia"/>
         <Class IRI="#Competencia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#determinadoPorEstilodeAprendizaje"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#identificaPersona"/>
@@ -3106,7 +3210,7 @@
         <Class IRI="#Calendario"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#representaActividdad"/>
+        <ObjectProperty IRI="#representaActividad"/>
         <Class IRI="#Actividad"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -3114,16 +3218,32 @@
         <Class IRI="#Comunicacion"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#resultadeEstiloDeAprendizaje"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#tieneActividad"/>
         <Class IRI="#Actividad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneAjusteRazonable"/>
+        <Class IRI="#AjusteRazonable"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#tieneCompetencia"/>
         <Class IRI="#Competencia"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEstilodeAprendizaje"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#tienePictograma"/>
         <Class IRI="#Pictograma"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utilizaCompetencia"/>
+        <Class IRI="#Competencia"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#Adaptacion"/>
@@ -3164,19 +3284,19 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
-        <IRI>#AjustesRazonables</IRI>
+        <IRI>#AjusteRazonable</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Adaptaciones Curriculares
 </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
-        <IRI>#AjustesRazonables</IRI>
+        <IRI>#AjusteRazonable</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Recurso
 </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#AjustesRazonables</IRI>
+        <IRI>#AjusteRazonable</IRI>
         <Literal datatypeIRI="&xsd;string">Referidas al area Lengua, Naturales, Sociales, Matematicas 
 Actividades ludicas en la casa e institucion escolar</Literal>
     </AnnotationAssertion>
