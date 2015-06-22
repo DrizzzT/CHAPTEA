@@ -23,6 +23,9 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#Accesorio"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Actividad"/>
     </Declaration>
     <Declaration>
@@ -32,13 +35,13 @@
         <Class IRI="#Aereos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AjusteRazonable"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Alimentacion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Area"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Aseo"/>
@@ -54,9 +57,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Carne"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Casa"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CienciasNaturales"/>
@@ -75,6 +75,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Comunicacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contenido"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cualidad"/>
@@ -113,10 +116,16 @@
         <Class IRI="#Golosina"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Hogar"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Insectos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#JuegosDeMesa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JuegosDeSalon"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Lengua"/>
@@ -143,7 +152,7 @@
         <Class IRI="#Pan"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Parte"/>
@@ -176,6 +185,9 @@
         <Class IRI="#Semana"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Sentido"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Sentimiento"/>
     </Declaration>
     <Declaration>
@@ -197,28 +209,43 @@
         <Class IRI="#Vestimenta"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#caracterizaCalendario"/>
+        <Class IRI="#VideoJuegos"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#definidoPorAjusteRazonable"/>
+        <ObjectProperty IRI="#desarrollaCompetencia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#desarrolladaPorPersona"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#desarrolladoPorEjercicio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#determinaActividad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#determinaCalendario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#determinaCompetencia"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#determinaEjercicio"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
+        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#determinadoPorCompetencia"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#determinadoPorEstilodeAprendizaje"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#identificaPersona"/>
+        <ObjectProperty IRI="#perteneceArea"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#perteneceCalendario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceContenido"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pertenecePersona"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#representaActividad"/>
@@ -227,55 +254,31 @@
         <ObjectProperty IRI="#representaComunicacion"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#resultadeEstiloDeAprendizaje"/>
+        <ObjectProperty IRI="#representaEjercicio"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#tieneActividad"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneAjusteRazonable"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#tieneCompetencia"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneEstilodeAprendizaje"/>
+        <ObjectProperty IRI="#tieneContenido"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneEjercicio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneEstiloDeAprendizaje"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#tienePictograma"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#utilizaCompetencia"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Adaptacion"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Escritura"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Fecha"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Grado"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Hora"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Imagen"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Lectura"/>
+        <DataProperty IRI="#ID"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Nombre"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Sonido"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#TiempoDeAtencion"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Abajo"/>
@@ -287,9 +290,6 @@
         <NamedIndividual IRI="#Abril"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Abstraccion"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Abuela"/>
     </Declaration>
     <Declaration>
@@ -297,6 +297,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Aburrido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Activo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Adelante"/>
@@ -341,6 +344,9 @@
         <NamedIndividual IRI="#Anchi"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Anteojo"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Antes"/>
     </Declaration>
     <Declaration>
@@ -368,10 +374,10 @@
         <NamedIndividual IRI="#AsistenteSocial"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Atencion"/>
+        <NamedIndividual IRI="#Atras"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Atras"/>
+        <NamedIndividual IRI="#Audicion"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Aula"/>
@@ -404,6 +410,9 @@
         <NamedIndividual IRI="#Basquet"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BatallaNaval"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Bañarse"/>
     </Declaration>
     <Declaration>
@@ -417,6 +426,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bingo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bizcocho"/>
@@ -435,6 +447,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bowling"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Boxer"/>
@@ -461,10 +476,16 @@
         <NamedIndividual IRI="#Caluroso"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Calza"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Calzoncillo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camara"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cambiarse"/>
@@ -608,6 +629,9 @@
         <NamedIndividual IRI="#Damas"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Dardos"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Dedo"/>
     </Declaration>
     <Declaration>
@@ -686,6 +710,9 @@
         <NamedIndividual IRI="#Espalda"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Estufa"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Factura"/>
     </Declaration>
     <Declaration>
@@ -731,6 +758,9 @@
         <NamedIndividual IRI="#Gallina"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GameBoy"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Ganzo"/>
     </Declaration>
     <Declaration>
@@ -746,6 +776,9 @@
         <NamedIndividual IRI="#Gelatina"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Generala"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Gimnasia"/>
     </Declaration>
     <Declaration>
@@ -756,6 +789,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Grillo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gusto"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Habitacion"/>
@@ -794,6 +830,9 @@
         <NamedIndividual IRI="#Hormiga"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Horno"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Hospital"/>
     </Declaration>
     <Declaration>
@@ -819,6 +858,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jenga"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jirafa"/>
@@ -861,9 +903,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Leche"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#LectoEscritura"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Leer"/>
@@ -909,6 +948,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Luciernaga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ludo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lunes"/>
@@ -965,13 +1007,13 @@
         <NamedIndividual IRI="#Melon"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Memoria"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Merendar"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mesa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metegol"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Microonda"/>
@@ -1046,9 +1088,6 @@
         <NamedIndividual IRI="#Nublado"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Numeracion"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Octubre"/>
     </Declaration>
     <Declaration>
@@ -1059,6 +1098,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ojota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Olfato"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Orca"/>
@@ -1100,9 +1142,6 @@
         <NamedIndividual IRI="#Papa"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Parchis"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Parque"/>
     </Declaration>
     <Declaration>
@@ -1139,10 +1178,19 @@
         <NamedIndividual IRI="#Pierna"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Ping_pong"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Pinguino"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pintar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Placard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PlayStation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Plaza"/>
@@ -1163,6 +1211,12 @@
         <NamedIndividual IRI="#Pomelo"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Pool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pragmatico"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Prima"/>
     </Declaration>
     <Declaration>
@@ -1175,22 +1229,31 @@
         <NamedIndividual IRI="#Profesor"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Pulsera"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Pure"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ravioles"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Razonamiento"/>
+        <NamedIndividual IRI="#Rectangular"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Rectangular"/>
+        <NamedIndividual IRI="#Reflexivo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reloj"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Remera"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Remis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ReproductorDeVIdeo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Rodilla"/>
@@ -1208,6 +1271,9 @@
         <NamedIndividual IRI="#Rosa"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Ruleta"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Sabado"/>
     </Declaration>
     <Declaration>
@@ -1220,10 +1286,16 @@
         <NamedIndividual IRI="#Sandia"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Sapo"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Secarropa"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Secretaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sega"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Seleccionar"/>
@@ -1238,7 +1310,16 @@
         <NamedIndividual IRI="#Silla"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Sillon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simon"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Soleado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sombrero"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sucio"/>
@@ -1248,6 +1329,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tacos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tacto"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tamales"/>
@@ -1262,6 +1346,12 @@
         <NamedIndividual IRI="#Teatro"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Teg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tejo"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Telefono"/>
     </Declaration>
     <Declaration>
@@ -1272,6 +1362,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tenis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teorico"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Terraza"/>
@@ -1299,6 +1392,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tucan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UNO"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Uva"/>
@@ -1340,6 +1436,9 @@
         <NamedIndividual IRI="#Vicuña"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#VideoJuego"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Viernes"/>
     </Declaration>
     <Declaration>
@@ -1349,7 +1448,16 @@
         <NamedIndividual IRI="#Violeta"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Vision"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Voley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xbox"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Yogurt"/>
@@ -1369,6 +1477,10 @@
     <Declaration>
         <AnnotationProperty IRI="#Sinonimo"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accesorio"/>
+        <Class IRI="#Vestimenta"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Acuaticos"/>
         <Class IRI="#Animal"/>
@@ -1402,16 +1514,12 @@
         <Class IRI="#Comida"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Casa"/>
-        <Class IRI="#Lugar"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#CienciasNaturales"/>
-        <Class IRI="#AjusteRazonable"/>
+        <Class IRI="#Area"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CienciasSociales"/>
-        <Class IRI="#AjusteRazonable"/>
+        <Class IRI="#Area"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Clima"/>
@@ -1462,6 +1570,10 @@
         <Class IRI="#Comida"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Hogar"/>
+        <Class IRI="#Lugar"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Insectos"/>
         <Class IRI="#Animal"/>
     </SubClassOf>
@@ -1470,8 +1582,12 @@
         <Class IRI="#Recreacion"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#JuegosDeSalon"/>
+        <Class IRI="#Recreacion"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Lengua"/>
-        <Class IRI="#AjusteRazonable"/>
+        <Class IRI="#Area"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lugar"/>
@@ -1479,7 +1595,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Matematicas"/>
-        <Class IRI="#AjusteRazonable"/>
+        <Class IRI="#Area"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mes"/>
@@ -1502,7 +1618,7 @@
         <Class IRI="#Comida"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
@@ -1538,6 +1654,10 @@
         <Class IRI="#Temporal"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Sentido"/>
+        <Class IRI="#Cuerpo"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Sentimiento"/>
         <Class IRI="#Comunicacion"/>
     </SubClassOf>
@@ -1565,6 +1685,10 @@
         <Class IRI="#Vestimenta"/>
         <Class IRI="#Actividad"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VideoJuegos"/>
+        <Class IRI="#Recreacion"/>
+    </SubClassOf>
     <ClassAssertion>
         <Class IRI="#Espacial"/>
         <NamedIndividual IRI="#Abajo"/>
@@ -1578,20 +1702,20 @@
         <NamedIndividual IRI="#Abril"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Abstraccion"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Abuela"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Abuelo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sentimiento"/>
         <NamedIndividual IRI="#Aburrido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <NamedIndividual IRI="#Activo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Espacial"/>
@@ -1630,16 +1754,20 @@
         <NamedIndividual IRI="#Alto"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Amiga"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Amigo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Postre"/>
         <NamedIndividual IRI="#Anchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accesorio"/>
+        <NamedIndividual IRI="#Anteojo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Temporal"/>
@@ -1678,12 +1806,12 @@
         <NamedIndividual IRI="#AsistenteSocial"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Atencion"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Espacial"/>
         <NamedIndividual IRI="#Atras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentido"/>
+        <NamedIndividual IRI="#Audicion"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Escuela"/>
@@ -1706,7 +1834,7 @@
         <NamedIndividual IRI="#Bajo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Casa"/>
+        <Class IRI="#Hogar"/>
         <NamedIndividual IRI="#Balcon"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1722,15 +1850,19 @@
         <NamedIndividual IRI="#Basquet"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#BatallaNaval"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Aseo"/>
         <NamedIndividual IRI="#Bañarse"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Casa"/>
+        <Class IRI="#Escuela"/>
         <NamedIndividual IRI="#Baño"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Escuela"/>
+        <Class IRI="#Hogar"/>
         <NamedIndividual IRI="#Baño"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1744,6 +1876,10 @@
     <ClassAssertion>
         <Class IRI="#Carne"/>
         <NamedIndividual IRI="#Bife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Bingo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Pan"/>
@@ -1764,6 +1900,10 @@
     <ClassAssertion>
         <Class IRI="#Calzado"/>
         <NamedIndividual IRI="#Bota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeSalon"/>
+        <NamedIndividual IRI="#Bowling"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Varon"/>
@@ -1798,12 +1938,20 @@
         <NamedIndividual IRI="#Caluroso"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Mujer"/>
+        <NamedIndividual IRI="#Calza"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Varon"/>
         <NamedIndividual IRI="#Calzoncillo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Mueble"/>
         <NamedIndividual IRI="#Cama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Camara"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Actividad"/>
@@ -1942,11 +2090,11 @@
         <NamedIndividual IRI="#Club"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Casa"/>
+        <Class IRI="#Escuela"/>
         <NamedIndividual IRI="#Cocina"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Escuela"/>
+        <Class IRI="#Hogar"/>
         <NamedIndividual IRI="#Cocina"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1962,11 +2110,15 @@
         <NamedIndividual IRI="#Colectivo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Casa"/>
+        <Class IRI="#Hogar"/>
         <NamedIndividual IRI="#Comedor"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Computadora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VideoJuegos"/>
         <NamedIndividual IRI="#Computadora"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2008,6 +2160,10 @@
     <ClassAssertion>
         <Class IRI="#JuegosDeMesa"/>
         <NamedIndividual IRI="#Damas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeSalon"/>
+        <NamedIndividual IRI="#Dardos"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Parte"/>
@@ -2114,6 +2270,10 @@
         <NamedIndividual IRI="#Espalda"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Estufa"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Pan"/>
         <NamedIndividual IRI="#Factura"/>
     </ClassAssertion>
@@ -2174,11 +2334,15 @@
         <NamedIndividual IRI="#Gallina"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#VideoJuegos"/>
+        <NamedIndividual IRI="#GameBoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Terrestres"/>
         <NamedIndividual IRI="#Ganzo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Casa"/>
+        <Class IRI="#Hogar"/>
         <NamedIndividual IRI="#Garage"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2192,6 +2356,10 @@
     <ClassAssertion>
         <Class IRI="#Postre"/>
         <NamedIndividual IRI="#Gelatina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Generala"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Deporte"/>
@@ -2210,7 +2378,11 @@
         <NamedIndividual IRI="#Grillo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Casa"/>
+        <Class IRI="#Sentido"/>
+        <NamedIndividual IRI="#Gusto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hogar"/>
         <NamedIndividual IRI="#Habitacion"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2242,11 +2414,11 @@
         <NamedIndividual IRI="#Helado"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Hermana"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Hermano"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2260,6 +2432,10 @@
     <ClassAssertion>
         <Class IRI="#Insectos"/>
         <NamedIndividual IRI="#Hormiga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#Horno"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lugar"/>
@@ -2300,6 +2476,10 @@
     <ClassAssertion>
         <Class IRI="#Varon"/>
         <NamedIndividual IRI="#Jean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Jenga"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Terrestres"/>
@@ -2356,10 +2536,6 @@
     <ClassAssertion>
         <Class IRI="#Bebida"/>
         <NamedIndividual IRI="#Leche"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#LectoEscritura"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Competencia"/>
@@ -2422,6 +2598,10 @@
         <NamedIndividual IRI="#Luciernaga"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Ludo"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Semana"/>
         <NamedIndividual IRI="#Lunes"/>
     </ClassAssertion>
@@ -2430,7 +2610,7 @@
         <NamedIndividual IRI="#Maestro"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Mama"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2502,16 +2682,16 @@
         <NamedIndividual IRI="#Melon"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Memoria"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Actividad"/>
         <NamedIndividual IRI="#Merendar"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Mueble"/>
         <NamedIndividual IRI="#Mesa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeSalon"/>
+        <NamedIndividual IRI="#Metegol"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Electrodomestico"/>
@@ -2598,7 +2778,7 @@
         <NamedIndividual IRI="#Niñera"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Novia"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2606,16 +2786,12 @@
         <NamedIndividual IRI="#Noviembre"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Novio"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Clima"/>
         <NamedIndividual IRI="#Nublado"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Numeracion"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Mes"/>
@@ -2632,6 +2808,10 @@
     <ClassAssertion>
         <Class IRI="#Calzado"/>
         <NamedIndividual IRI="#Ojota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentido"/>
+        <NamedIndividual IRI="#Olfato"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Acuaticos"/>
@@ -2686,12 +2866,8 @@
         <NamedIndividual IRI="#Pantufla"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Papa"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#JuegosDeMesa"/>
-        <NamedIndividual IRI="#Parchis"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lugar"/>
@@ -2706,11 +2882,11 @@
         <NamedIndividual IRI="#Patineta"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Casa"/>
+        <Class IRI="#Escuela"/>
         <NamedIndividual IRI="#Patio"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Escuela"/>
+        <Class IRI="#Hogar"/>
         <NamedIndividual IRI="#Patio"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2746,12 +2922,24 @@
         <NamedIndividual IRI="#Pierna"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#JuegosDeSalon"/>
+        <NamedIndividual IRI="#Ping_pong"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Acuaticos"/>
         <NamedIndividual IRI="#Pinguino"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Recreacion"/>
         <NamedIndividual IRI="#Pintar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mueble"/>
+        <NamedIndividual IRI="#Placard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VideoJuegos"/>
+        <NamedIndividual IRI="#PlayStation"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lugar"/>
@@ -2786,7 +2974,15 @@
         <NamedIndividual IRI="#Pomelo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#JuegosDeSalon"/>
+        <NamedIndividual IRI="#Pool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <NamedIndividual IRI="#Pragmatico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Prima"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2794,12 +2990,16 @@
         <NamedIndividual IRI="#Primavera"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Primo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Profesion"/>
         <NamedIndividual IRI="#Profesor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accesorio"/>
+        <NamedIndividual IRI="#Pulsera"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Comida"/>
@@ -2810,12 +3010,16 @@
         <NamedIndividual IRI="#Ravioles"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Razonamiento"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Forma"/>
         <NamedIndividual IRI="#Rectangular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <NamedIndividual IRI="#Reflexivo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accesorio"/>
+        <NamedIndividual IRI="#Reloj"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Mujer"/>
@@ -2828,6 +3032,10 @@
     <ClassAssertion>
         <Class IRI="#Transporte"/>
         <NamedIndividual IRI="#Remis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#ReproductorDeVIdeo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Parte"/>
@@ -2846,6 +3054,10 @@
         <NamedIndividual IRI="#Rosa"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#JuegosDeSalon"/>
+        <NamedIndividual IRI="#Ruleta"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Semana"/>
         <NamedIndividual IRI="#Sabado"/>
     </ClassAssertion>
@@ -2862,12 +3074,20 @@
         <NamedIndividual IRI="#Sandia"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#JuegosDeSalon"/>
+        <NamedIndividual IRI="#Sapo"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Electrodomestico"/>
         <NamedIndividual IRI="#Secarropa"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Escuela"/>
         <NamedIndividual IRI="#Secretaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VideoJuegos"/>
+        <NamedIndividual IRI="#Sega"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Competencia"/>
@@ -2886,8 +3106,20 @@
         <NamedIndividual IRI="#Silla"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Mueble"/>
+        <NamedIndividual IRI="#Sillon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Simon"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Clima"/>
         <NamedIndividual IRI="#Soleado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accesorio"/>
+        <NamedIndividual IRI="#Sombrero"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Cualidad"/>
@@ -2900,6 +3132,10 @@
     <ClassAssertion>
         <Class IRI="#Comida"/>
         <NamedIndividual IRI="#Tacos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentido"/>
+        <NamedIndividual IRI="#Tacto"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Comida"/>
@@ -2918,6 +3154,14 @@
         <NamedIndividual IRI="#Teatro"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#Teg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeSalon"/>
+        <NamedIndividual IRI="#Tejo"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Electrodomestico"/>
         <NamedIndividual IRI="#Telefono"/>
     </ClassAssertion>
@@ -2934,11 +3178,15 @@
         <NamedIndividual IRI="#Tenis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Casa"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
+        <NamedIndividual IRI="#Teorico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hogar"/>
         <NamedIndividual IRI="#Terraza"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Tia"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2946,7 +3194,7 @@
         <NamedIndividual IRI="#Tiburon"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parentezco"/>
+        <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Tio"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2968,6 +3216,10 @@
     <ClassAssertion>
         <Class IRI="#Aereos"/>
         <NamedIndividual IRI="#Tucan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JuegosDeMesa"/>
+        <NamedIndividual IRI="#UNO"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Fruta"/>
@@ -3022,6 +3274,10 @@
         <NamedIndividual IRI="#Vicuña"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Electrodomestico"/>
+        <NamedIndividual IRI="#VideoJuego"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Semana"/>
         <NamedIndividual IRI="#Viernes"/>
     </ClassAssertion>
@@ -3030,8 +3286,20 @@
         <NamedIndividual IRI="#Vino"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Sentido"/>
+        <NamedIndividual IRI="#Vision"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Deporte"/>
         <NamedIndividual IRI="#Voley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VideoJuegos"/>
+        <NamedIndividual IRI="#Wii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VideoJuegos"/>
+        <NamedIndividual IRI="#Xbox"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Bebida"/>
@@ -3054,34 +3322,50 @@
         <NamedIndividual IRI="#Ñoquis"/>
     </ClassAssertion>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#utilizaCompetencia"/>
-        <ObjectProperty IRI="#caracterizaCalendario"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#tieneEstilodeAprendizaje"/>
-        <ObjectProperty IRI="#definidoPorAjusteRazonable"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#determinaEjercicio"/>
-        <ObjectProperty IRI="#determinadoPorEstilodeAprendizaje"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
-        <ObjectProperty IRI="#determinadoPorCompetencia"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#tieneAjusteRazonable"/>
-        <ObjectProperty IRI="#determinadoPorCompetencia"/>
+        <ObjectProperty IRI="#desarrolladoPorEjercicio"/>
+        <ObjectProperty IRI="#desarrollaCompetencia"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#tieneCompetencia"/>
-        <ObjectProperty IRI="#identificaPersona"/>
+        <ObjectProperty IRI="#desarrolladaPorPersona"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
+        <ObjectProperty IRI="#determinaActividad"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
+        <ObjectProperty IRI="#determinaCalendario"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#determinaCompetencia"/>
+        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#determinaEjercicio"/>
+        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneCompetencia"/>
+        <ObjectProperty IRI="#perteneceArea"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#perteneceArea"/>
+        <ObjectProperty IRI="#tieneContenido"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#tieneActividad"/>
         <ObjectProperty IRI="#perteneceCalendario"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneEjercicio"/>
+        <ObjectProperty IRI="#perteneceContenido"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneEstiloDeAprendizaje"/>
+        <ObjectProperty IRI="#pertenecePersona"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#representaActividad"/>
         <ObjectProperty IRI="#tienePictograma"/>
     </InverseObjectProperties>
@@ -3090,19 +3374,31 @@
         <ObjectProperty IRI="#tienePictograma"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#tieneAjusteRazonable"/>
-        <ObjectProperty IRI="#resultadeEstiloDeAprendizaje"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#resultadeEstiloDeAprendizaje"/>
-        <ObjectProperty IRI="#tieneEstilodeAprendizaje"/>
+        <ObjectProperty IRI="#representaEjercicio"/>
+        <ObjectProperty IRI="#tienePictograma"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#caracterizaCalendario"/>
+        <ObjectProperty IRI="#desarrollaCompetencia"/>
+        <Class IRI="#Ejercicio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#desarrolladaPorPersona"/>
         <Class IRI="#Competencia"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#definidoPorAjusteRazonable"/>
+        <ObjectProperty IRI="#desarrolladoPorEjercicio"/>
+        <Class IRI="#Competencia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#determinaActividad"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#determinaCalendario"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#determinaCompetencia"/>
         <Class IRI="#EstiloDeAprendizaje"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -3110,28 +3406,24 @@
         <Class IRI="#EstiloDeAprendizaje"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
-        <Class IRI="#Competencia"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#determinadoPorCompetencia"/>
-        <Class IRI="#AjusteRazonable"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#determinadoPorCompetencia"/>
-        <Class IRI="#EstiloDeAprendizaje"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#determinadoPorEstilodeAprendizaje"/>
+        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
         <Class IRI="#Ejercicio"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#identificaPersona"/>
-        <Class IRI="#Competencia"/>
+        <ObjectProperty IRI="#perteneceArea"/>
+        <Class IRI="#Contenido"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#perteneceCalendario"/>
         <Class IRI="#Actividad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceContenido"/>
+        <Class IRI="#Ejercicio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pertenecePersona"/>
+        <Class IRI="#EstiloDeAprendizaje"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#representaActividad"/>
@@ -3142,72 +3434,88 @@
         <Class IRI="#Pictograma"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#resultadeEstiloDeAprendizaje"/>
-        <Class IRI="#AjusteRazonable"/>
+        <ObjectProperty IRI="#representaEjercicio"/>
+        <Class IRI="#Pictograma"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#tieneActividad"/>
         <Class IRI="#Calendario"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneAjusteRazonable"/>
-        <Class IRI="#Competencia"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneAjusteRazonable"/>
-        <Class IRI="#EstiloDeAprendizaje"/>
+        <ObjectProperty IRI="#tieneCompetencia"/>
+        <Class IRI="#Area"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#tieneCompetencia"/>
         <Class IRI="#Persona"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneEstilodeAprendizaje"/>
-        <Class IRI="#AjusteRazonable"/>
+        <ObjectProperty IRI="#tieneContenido"/>
+        <Class IRI="#Area"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tienePictograma"/>
-        <Class IRI="#Actividad"/>
+        <ObjectProperty IRI="#tieneEjercicio"/>
+        <Class IRI="#Contenido"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneEstiloDeAprendizaje"/>
+        <Class IRI="#Persona"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#tienePictograma"/>
         <Class IRI="#Comunicacion"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#utilizaCompetencia"/>
-        <Class IRI="#Calendario"/>
+        <ObjectProperty IRI="#tienePictograma"/>
+        <Class IRI="#Ejercicio"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#caracterizaCalendario"/>
+        <ObjectProperty IRI="#desarrollaCompetencia"/>
+        <Class IRI="#Competencia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#desarrolladaPorPersona"/>
+        <Class IRI="#Persona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#desarrolladoPorEjercicio"/>
+        <Class IRI="#Ejercicio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#determinaActividad"/>
+        <Class IRI="#Actividad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#determinaCalendario"/>
         <Class IRI="#Calendario"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#definidoPorAjusteRazonable"/>
-        <Class IRI="#AjusteRazonable"/>
+        <ObjectProperty IRI="#determinaCompetencia"/>
+        <Class IRI="#Competencia"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#determinaEjercicio"/>
         <Class IRI="#Ejercicio"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#determinaEstilodeAprendizaje"/>
+        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
         <Class IRI="#EstiloDeAprendizaje"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#determinadoPorCompetencia"/>
-        <Class IRI="#Competencia"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#determinadoPorEstilodeAprendizaje"/>
-        <Class IRI="#EstiloDeAprendizaje"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#identificaPersona"/>
-        <Class IRI="#Persona"/>
+        <ObjectProperty IRI="#perteneceArea"/>
+        <Class IRI="#Area"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#perteneceCalendario"/>
         <Class IRI="#Calendario"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceContenido"/>
+        <Class IRI="#Contenido"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pertenecePersona"/>
+        <Class IRI="#Persona"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#representaActividad"/>
@@ -3218,97 +3526,540 @@
         <Class IRI="#Comunicacion"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#resultadeEstiloDeAprendizaje"/>
-        <Class IRI="#EstiloDeAprendizaje"/>
+        <ObjectProperty IRI="#representaEjercicio"/>
+        <Class IRI="#Ejercicio"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#tieneActividad"/>
         <Class IRI="#Actividad"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneAjusteRazonable"/>
-        <Class IRI="#AjusteRazonable"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#tieneCompetencia"/>
         <Class IRI="#Competencia"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneEstilodeAprendizaje"/>
+        <ObjectProperty IRI="#tieneContenido"/>
+        <Class IRI="#Contenido"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEjercicio"/>
+        <Class IRI="#Ejercicio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEstiloDeAprendizaje"/>
         <Class IRI="#EstiloDeAprendizaje"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#tienePictograma"/>
         <Class IRI="#Pictograma"/>
     </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#utilizaCompetencia"/>
-        <Class IRI="#Competencia"/>
-    </ObjectPropertyRange>
     <DataPropertyDomain>
-        <DataProperty IRI="#Adaptacion"/>
-        <Class IRI="#Competencia"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Fecha"/>
-        <Class IRI="#Calendario"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Grado"/>
-        <Class IRI="#Competencia"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Hora"/>
-        <Class IRI="#Calendario"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Imagen"/>
-        <Class IRI="#Pictograma"/>
+        <DataProperty IRI="#ID"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Persona"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </DataPropertyDomain>
-    <DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ID"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Pictograma"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Sonido"/>
-        <Class IRI="#Pictograma"/>
-    </DataPropertyDomain>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Accesorio</IRI>
+        <Literal datatypeIRI="&xsd;string">Complemento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Actividad</IRI>
+        <Literal datatypeIRI="&xsd;string">accion</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Actividad</IRI>
-        <Literal datatypeIRI="&xsd;string">Referidas a actividades sociales del calendario</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#Sinonimo"/>
-        <IRI>#AjusteRazonable</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Adaptaciones Curriculares
+        <Literal datatypeIRI="&xsd;string">Conjunto de tareas o acciones realizadas por la persona, que las desarrolla impulsada por el instinto, la razon, la emocion, o la voluntad, hacia un objetivo
 </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
-        <IRI>#AjusteRazonable</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Recurso
+        <IRI>#Acuaticos</IRI>
+        <Literal datatypeIRI="&xsd;string">maritimo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Acuaticos</IRI>
+        <Literal datatypeIRI="&xsd;string">Que vive en el agua</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aereos</IRI>
+        <Literal datatypeIRI="&xsd;string">Animal que vive en contacto directo con el aire atmosferico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aereos</IRI>
+        <Literal datatypeIRI="&xsd;string">Del aire o relacionado con él</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Alimentacion</IRI>
+        <Literal datatypeIRI="&xsd;string">ingestion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Alimentacion</IRI>
+        <Literal datatypeIRI="&xsd;string">Acto de ingerir alimentos
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Animal</IRI>
+        <Literal datatypeIRI="&xsd;string">bestia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Animal</IRI>
+        <Literal datatypeIRI="&xsd;string">Ser vivo que tiene las capacidades de moverse por impulso propio y siente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Area</IRI>
+        <Literal datatypeIRI="&xsd;string">asignatura, materia, disciplina, tema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Area</IRI>
+        <Literal datatypeIRI="&xsd;string">Conjunto de materias o conocimiento que tienen una relacion entre si y que son propios de una actividad o disciplina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Aseo</IRI>
+        <Literal datatypeIRI="&xsd;string">higiene, limpieza, lavado, cuidado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aseo</IRI>
+        <Literal datatypeIRI="&xsd;string">Limpieza o arreglo de una persona o una cosa
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Bebida</IRI>
+        <Literal datatypeIRI="&xsd;string">refresco, liquido</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bebida</IRI>
+        <Literal datatypeIRI="&xsd;string">Sustancia liquida que se ingiere
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Calendario</IRI>
+        <Literal datatypeIRI="&xsd;string">almanaque, agenda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Calendario</IRI>
+        <Literal datatypeIRI="&xsd;string">Plan ordenado del conjunto de las actividades previstas durante un periodo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Calzado</IRI>
+        <Literal datatypeIRI="&xsd;string">zapato, zapatilla, bota, pantufla</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Calzado</IRI>
+        <Literal datatypeIRI="&xsd;string">Nombre genérico de cualquier prenda de vestir que cubre y resguarda el pie y a veces también parte de la pierna.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CienciasNaturales</IRI>
+        <Literal datatypeIRI="&xsd;string">Ciencias que estudian asuntos relacionados con la naturaleza.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CienciasSociales</IRI>
+        <Literal datatypeIRI="&xsd;string">Ciencias que estudian el comportamiento del hombre en la sociedad y sus formas de organización</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Clima</IRI>
+        <Literal datatypeIRI="&xsd;string">temperatura, tiempo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Clima</IRI>
+        <Literal datatypeIRI="&xsd;string">Conjunto de condiciones atmosféricas que caracterizan a las zonas geográficas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Comida</IRI>
+        <Literal datatypeIRI="&xsd;string">alimento, vianda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Comida</IRI>
+        <Literal datatypeIRI="&xsd;string">Sustancia solida que se come y sirve de alimento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Competencia</IRI>
+        <Literal datatypeIRI="&xsd;string">capacidad, atribucion, dominio, facultad, aptitud, habilidad, talento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Competencia</IRI>
+        <Literal datatypeIRI="&xsd;string">Conocimientos, habilidades, y destrezas que desarrolla una persona para comprender, transformar y practicar en el mundo en el que se desenvuelve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Comunicacion</IRI>
+        <Literal datatypeIRI="&xsd;string">comunicado, informar, transmitir, avisar, conversar, relacionarse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Comunicacion</IRI>
+        <Literal datatypeIRI="&xsd;string">Intercambio de sentimientos, opiniones, o cualquier otro tipo de información mediante el habla, escritura u otro tipo de señales</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Contenido</IRI>
+        <Literal datatypeIRI="&xsd;string">tema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Contenido</IRI>
+        <Literal datatypeIRI="&xsd;string">Se utilizan para organizar todos los materiales de contenido de las areas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Cualidad</IRI>
+        <Literal datatypeIRI="&xsd;string">aptitud, propiedad, condicion, aspecto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cualidad</IRI>
+        <Literal datatypeIRI="&xsd;string">Rasgo, componente permanente, diferenciado, peculiar y distintivo de la  persona, a que alguien o algo sea lo que es y como es</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Cuerpo</IRI>
+        <Literal datatypeIRI="&xsd;string">organismo
 </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#AjusteRazonable</IRI>
-        <Literal datatypeIRI="&xsd;string">Referidas al area Lengua, Naturales, Sociales, Matematicas 
-Actividades ludicas en la casa e institucion escolar</Literal>
+        <IRI>#Cuerpo</IRI>
+        <Literal datatypeIRI="&xsd;string">El cuerpo humano es la estructura física y material del ser humano. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Deporte</IRI>
+        <Literal datatypeIRI="&xsd;string">ejercicio,gimnasia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Deporte</IRI>
+        <Literal datatypeIRI="&xsd;string">Actividad fisica, ejercida como juego o competicion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Ejercicio</IRI>
+        <Literal datatypeIRI="&xsd;string">deberes, tarea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ejercicio</IRI>
+        <Literal datatypeIRI="&xsd;string">Práctica que sirve para adquirir unos conocimientos o desarrollar una habilidad.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Electrodomestico</IRI>
+        <Literal datatypeIRI="&xsd;string">Aparato que funciona con energía eléctrica y está destinado al uso doméstico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Escuela</IRI>
+        <Literal datatypeIRI="&xsd;string">colegio, academia, instituto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Escuela</IRI>
+        <Literal datatypeIRI="&xsd;string">Institucion destinada a la enseñanza que proporciona conocimientos que se consideran basicos en la alfabetizacion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Espacial</IRI>
+        <Literal datatypeIRI="&xsd;string">posicion, ubicacion, posicionamiento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Espacial</IRI>
+        <Literal datatypeIRI="&xsd;string"> Porción del espacio, real o imaginada, en que se sitúa algo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Estacion</IRI>
+        <Literal datatypeIRI="&xsd;string">Período del año caracterizado por algo, especialmente por determinadas condiciones atmosféricas, o destinado a cierta actividad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#EstiloDeAprendizaje</IRI>
+        <Literal datatypeIRI="&xsd;string">manera de aprender, forma de aprender, metodo para aprender, procedimiento para aprender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EstiloDeAprendizaje</IRI>
+        <Literal datatypeIRI="&xsd;string">Conjunto de características pedagógicas y cognitivas que suelen expresarse conjuntamente cuando una persona debe enfrentar una situación de aprendizaje</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EstiloDeAprendizaje</IRI>
+        <Literal datatypeIRI="&xsd;string">Son los rasgos cognitivos, afectivos y fisiológicos que sirven como indicadores relativamente estables, de cómo el alumno percibe interacciones y responde a su ambiente de aprendizaje</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Forma</IRI>
+        <Literal datatypeIRI="&xsd;string">figura, diseño, estructura</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Forma</IRI>
+        <Literal datatypeIRI="&xsd;string">Característica de una figura geométrica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Hogar</IRI>
+        <Literal datatypeIRI="&xsd;string">domicilio, casa, vivienda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hogar</IRI>
+        <Literal datatypeIRI="&xsd;string">Ambiente familiar que se desarrolla en la vivienda habitual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Insectos</IRI>
+        <Literal datatypeIRI="&xsd;string">bicho, larva, parasito, gusano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Insectos</IRI>
+        <Literal datatypeIRI="&xsd;string">Iinvertebrado artrópodo de pequeño tamaño, con respiración traqueal, un par de antenas, tres pares de patas y el cuerpo diferenciado en cabeza, tórax y abdomen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#JuegosDeMesa</IRI>
+        <Literal datatypeIRI="&xsd;string">Juego que se practica generalmente sobre una mesa o un soporte similar y que es jugado por una o, más habitualmente, varias personas situadas a su alrededor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#JuegosDeSalon</IRI>
+        <Literal datatypeIRI="&xsd;string">Juego grupal realizado bajo techo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lengua</IRI>
+        <Literal datatypeIRI="&xsd;string">Asignatura cuyo propósito fundamental es el desarrollo de la competencia comunicativa de los escolares,que aprendan a utilizar el lenguaje hablado y escrito para comunicarse de manera afectiva en distintas situaciones.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
         <IRI>#Lugar</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Desplazamiento</Literal>
+        <Literal datatypeIRI="&xsd;string">sitio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lugar</IRI>
+        <Literal datatypeIRI="&xsd;string">Porcion de espacio en el que se situa algo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Matematicas</IRI>
+        <Literal datatypeIRI="&xsd;string">Ciencia que estudia las propiedades de los números y las relaciones que se establecen entre ellos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mes</IRI>
+        <Literal datatypeIRI="&xsd;string">Cada una de las doce partes en que se divide un año</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mueble</IRI>
+        <Literal datatypeIRI="&xsd;string">Objeto fabricado en algún material resistente con el que se equipa o se decora el interior de una casa, una oficina u otros locales</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
-        <IRI>#Lugar</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Orientacion</Literal>
+        <IRI>#Mujer</IRI>
+        <Literal datatypeIRI="&xsd;string">dama, señora, muchacha, chica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mujer</IRI>
+        <Literal datatypeIRI="&xsd;string">Persona de sexo femenino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Objeto</IRI>
+        <Literal datatypeIRI="&xsd;string">cosa, elemento, pieza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Objeto</IRI>
+        <Literal datatypeIRI="&xsd;string">Cosa material inanimada, generalmente de tamaño pequeño o mediano, que puede ser percibida por los sentidos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Parentesco</IRI>
+        <Literal datatypeIRI="&xsd;string">familiaridad, afinidad, relacion, semejanza, union, vinculo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Parentesco</IRI>
+        <Literal datatypeIRI="&xsd;string">Vínculo por consanguinidad, afinidad, adopción, matrimonio u otra relación estable de afectividad análoga a esta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Parte</IRI>
+        <Literal datatypeIRI="&xsd;string">Componentes del cuerpo humano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Persona</IRI>
+        <Literal datatypeIRI="&xsd;string">ser, individuo, sujeto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Persona</IRI>
+        <Literal datatypeIRI="&xsd;string">Ser dotado de razón, consciente de sí mismo y poseedor de una identidad propia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Pictograma</IRI>
+        <Literal datatypeIRI="&xsd;string">representacion, figura, grafica, dibujo, imagen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pictograma</IRI>
+        <Literal datatypeIRI="&xsd;string">Dibujo o signo gráfico que expresa un concepto relacionado materialmente con el objeto al que se refiere.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pictograma</IRI>
+        <Literal datatypeIRI="&xsd;string">Es un diagrama que utiliza imágenes o símbolos para mostrar datos para una rápida comprensión.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Planta</IRI>
+        <Literal datatypeIRI="&xsd;string">vegetal, arbusto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Planta</IRI>
+        <Literal datatypeIRI="&xsd;string">Organismo vivo que crece sin poder moverse, en especial el que crece fijado al suelo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Profesion</IRI>
+        <Literal datatypeIRI="&xsd;string">ocupacion, empleo, trabajo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Profesion</IRI>
+        <Literal datatypeIRI="&xsd;string">Actividad especializada del trabajo dentro de la sociedad   </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Recreacion</IRI>
+        <Literal datatypeIRI="&xsd;string">distraccion, entretenimiento, esparcimiento, diversion
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recreacion</IRI>
+        <Literal datatypeIRI="&xsd;string">Accion y efecto del bienestar y satisfaccion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Semana</IRI>
+        <Literal datatypeIRI="&xsd;string">Período de siete días que empieza el lunes y termina el domingo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sentido</IRI>
+        <Literal datatypeIRI="&xsd;string">Mecanismo fisiológico de la percepción que permiten percibir lo que está a nuestro alrededor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Sentimiento</IRI>
+        <Literal datatypeIRI="&xsd;string">sensacion, estado de animo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sentimiento</IRI>
+        <Literal datatypeIRI="&xsd;string">Estado de ánimo o disposición emocional hacia una cosa, un hecho o una persona.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Temporal</IRI>
+        <Literal datatypeIRI="&xsd;string">Expersa idea del tiempo o lo que tiene relación con esta dimensión</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Terrestres</IRI>
+        <Literal datatypeIRI="&xsd;string">terrenal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Terrestres</IRI>
+        <Literal datatypeIRI="&xsd;string">Del planeta Tierra o relacionado con él</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Transporte</IRI>
+        <Literal datatypeIRI="&xsd;string">traslado, traslacion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Transporte</IRI>
+        <Literal datatypeIRI="&xsd;string">Vehículo o medio que se usa para trasladar personas o cosas de un lugar a otro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Utiles</IRI>
+        <Literal datatypeIRI="&xsd;string">Paquete de artículos escolares básicos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Varon</IRI>
+        <Literal datatypeIRI="&xsd;string">varon, caballero, chico, señor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Varon</IRI>
+        <Literal datatypeIRI="&xsd;string">Persona de sexo masculino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sinonimo"/>
+        <IRI>#Vestimenta</IRI>
+        <Literal datatypeIRI="&xsd;string">ropa, vestuario, atuendo, prenda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vestimenta</IRI>
+        <Literal datatypeIRI="&xsd;string">Conjunto de prendas de vestir y de adornos que una persona viste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VideoJuegos</IRI>
+        <Literal datatypeIRI="&xsd;string">Aplicación interactiva orientada al entretenimiento que, a través de ciertos mandos o controles, permite simular experiencias en la pantalla de un televisor, una computadora u otro dispositivo electrónico
+</Literal>
     </AnnotationAssertion>
 </Ontology>
 
