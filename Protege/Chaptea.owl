@@ -41,6 +41,9 @@
         <Class IRI="#Alimentacion"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Almorzar"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Animal"/>
     </Declaration>
     <Declaration>
@@ -48,6 +51,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Aseo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bañarse"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bebida"/>
@@ -62,6 +68,15 @@
         <Class IRI="#Carne"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Cenar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CienciasNaturales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CienciasSociales"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Clima"/>
     </Declaration>
     <Declaration>
@@ -71,13 +86,7 @@
         <Class IRI="#Comida"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Competencia"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Comunicacion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Contenido"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cualidad"/>
@@ -89,7 +98,19 @@
         <Class IRI="#Deporte"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Desayunar"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Descriptivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EducacionArtistica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EducacionFIsica"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ejercicio"/>
@@ -107,19 +128,28 @@
         <Class IRI="#Estacion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EstiloDeAprendizaje"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Expresion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Forma"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#FormacionEticayCiudadana"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Fruta"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Golosina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HacerCaca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HacerPis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Higiene"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Hogar"/>
@@ -134,7 +164,28 @@
         <Class IRI="#JuegosDeSalon"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#LavarseElCabello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LavarseLaCara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LavarseLasManos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LavarseLosDientes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lengua"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Lugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matematica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Merendar"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mes"/>
@@ -161,6 +212,12 @@
         <Class IRI="#Parte"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ParteDeAbajo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParteDeArriba"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Pasta"/>
     </Declaration>
     <Declaration>
@@ -185,6 +242,9 @@
         <Class IRI="#Pregunta"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Preparar"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Profesion"/>
     </Declaration>
     <Declaration>
@@ -192,6 +252,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Recreacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salida"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sandwich"/>
@@ -204,6 +267,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Sentimiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tecnologia"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Temporal"/>
@@ -227,70 +293,10 @@
         <Class IRI="#Vestimenta"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Vestirse"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#VideoJuegos"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#desarrollaCompetencia"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#desarrolladaPorPersona"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#desarrolladoPorEjercicio"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#determinaActividad"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#determinaCalendario"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#determinaCompetencia"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#determinaEjercicio"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#perteneceArea"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#perteneceCalendario"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#perteneceContenido"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#pertenecePersona"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#representaActividad"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#representaComunicacion"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#representaEjercicio"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#tieneActividad"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#tieneCompetencia"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#tieneContenido"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#tieneEjercicio"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#tieneEstiloDeAprendizaje"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#tienePictograma"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Caracteristica"/>
@@ -1825,16 +1831,24 @@
         <Class IRI="#Actividad"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Almorzar"/>
+        <Class IRI="#Alimentacion"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Animal"/>
         <Class IRI="#Objeto"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Aseo"/>
-        <Class IRI="#Actividad"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bañarse"/>
+        <Class IRI="#Higiene"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bebida"/>
-        <Class IRI="#Alimentacion"/>
+        <Class IRI="#Comida"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Calzado"/>
@@ -1843,6 +1857,18 @@
     <SubClassOf>
         <Class IRI="#Carne"/>
         <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cenar"/>
+        <Class IRI="#Alimentacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CienciasNaturales"/>
+        <Class IRI="#Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CienciasSociales"/>
+        <Class IRI="#Area"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Clima"/>
@@ -1854,7 +1880,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Comida"/>
-        <Class IRI="#Alimentacion"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comunicacion"/>
+        <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cualidad"/>
@@ -1866,11 +1896,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Deporte"/>
-        <Class IRI="#Actividad"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desayunar"/>
+        <Class IRI="#Alimentacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Descriptivo"/>
         <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destino"/>
+        <Class IRI="#Salida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EducacionArtistica"/>
+        <Class IRI="#Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EducacionFIsica"/>
+        <Class IRI="#Area"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Electrodomestico"/>
@@ -1897,12 +1943,28 @@
         <Class IRI="#Descriptivo"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#FormacionEticayCiudadana"/>
+        <Class IRI="#Area"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Fruta"/>
         <Class IRI="#Comida"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Golosina"/>
         <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HacerCaca"/>
+        <Class IRI="#Higiene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HacerPis"/>
+        <Class IRI="#Higiene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Higiene"/>
+        <Class IRI="#Actividad"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hogar"/>
@@ -1921,8 +1983,36 @@
         <Class IRI="#Recreacion"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#LavarseElCabello"/>
+        <Class IRI="#Higiene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LavarseLaCara"/>
+        <Class IRI="#Higiene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LavarseLasManos"/>
+        <Class IRI="#Higiene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LavarseLosDientes"/>
+        <Class IRI="#Higiene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lengua"/>
+        <Class IRI="#Area"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Lugar"/>
-        <Class IRI="#Actividad"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Matematica"/>
+        <Class IRI="#Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Merendar"/>
+        <Class IRI="#Alimentacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mes"/>
@@ -1957,6 +2047,14 @@
         <Class IRI="#Cuerpo"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ParteDeAbajo"/>
+        <Class IRI="#Vestirse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParteDeArriba"/>
+        <Class IRI="#Vestirse"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Pasta"/>
         <Class IRI="#Comida"/>
     </SubClassOf>
@@ -1981,6 +2079,10 @@
         <Class IRI="#Comunicacion"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Preparar"/>
+        <Class IRI="#Salida"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Profesion"/>
         <Class IRI="#Personas"/>
     </SubClassOf>
@@ -1990,6 +2092,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Recreacion"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salida"/>
         <Class IRI="#Actividad"/>
     </SubClassOf>
     <SubClassOf>
@@ -2007,6 +2113,10 @@
     <SubClassOf>
         <Class IRI="#Sentimiento"/>
         <Class IRI="#Comunicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tecnologia"/>
+        <Class IRI="#Area"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Temporal"/>
@@ -2034,6 +2144,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vestimenta"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vestirse"/>
         <Class IRI="#Actividad"/>
     </SubClassOf>
     <SubClassOf>
@@ -2081,10 +2195,6 @@
         <NamedIndividual IRI="#Aburrido"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Activo"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Espacial"/>
         <NamedIndividual IRI="#Adelante"/>
     </ClassAssertion>
@@ -2115,6 +2225,10 @@
     <ClassAssertion>
         <Class IRI="#Golosina"/>
         <NamedIndividual IRI="#Alfajor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comida"/>
+        <NamedIndividual IRI="#Almorzar"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Cualidad"/>
@@ -2473,7 +2587,7 @@
         <NamedIndividual IRI="#Celular"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Actividad"/>
+        <Class IRI="#Comida"/>
         <NamedIndividual IRI="#Cenar"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2653,7 +2767,7 @@
         <NamedIndividual IRI="#Dentro"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Actividad"/>
+        <Class IRI="#Comida"/>
         <NamedIndividual IRI="#Desayunar"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3265,7 +3379,7 @@
         <NamedIndividual IRI="#Melon"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Actividad"/>
+        <Class IRI="#Comida"/>
         <NamedIndividual IRI="#Merendar"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3597,10 +3711,6 @@
         <NamedIndividual IRI="#PorFavor"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Pragmatico"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Parentesco"/>
         <NamedIndividual IRI="#Prima"/>
     </ClassAssertion>
@@ -3631,10 +3741,6 @@
     <ClassAssertion>
         <Class IRI="#Forma"/>
         <NamedIndividual IRI="#Rectangular"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Reflexivo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Accesorio"/>
@@ -3839,10 +3945,6 @@
     <ClassAssertion>
         <Class IRI="#Deporte"/>
         <NamedIndividual IRI="#Tenis"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#EstiloDeAprendizaje"/>
-        <NamedIndividual IRI="#Teorico"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Hogar"/>
@@ -4080,238 +4182,6 @@
         <Class IRI="#Pasta"/>
         <NamedIndividual IRI="#Ñoquis"/>
     </ClassAssertion>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#desarrolladoPorEjercicio"/>
-        <ObjectProperty IRI="#desarrollaCompetencia"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#tieneCompetencia"/>
-        <ObjectProperty IRI="#desarrolladaPorPersona"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
-        <ObjectProperty IRI="#determinaActividad"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
-        <ObjectProperty IRI="#determinaCalendario"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#determinaCompetencia"/>
-        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#determinaEjercicio"/>
-        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#tieneCompetencia"/>
-        <ObjectProperty IRI="#perteneceArea"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#perteneceArea"/>
-        <ObjectProperty IRI="#tieneContenido"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#tieneActividad"/>
-        <ObjectProperty IRI="#perteneceCalendario"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#tieneEjercicio"/>
-        <ObjectProperty IRI="#perteneceContenido"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#tieneEstiloDeAprendizaje"/>
-        <ObjectProperty IRI="#pertenecePersona"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#representaActividad"/>
-        <ObjectProperty IRI="#tienePictograma"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#representaComunicacion"/>
-        <ObjectProperty IRI="#tienePictograma"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#representaEjercicio"/>
-        <ObjectProperty IRI="#tienePictograma"/>
-    </InverseObjectProperties>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#desarrollaCompetencia"/>
-        <Class IRI="#Ejercicio"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#desarrolladaPorPersona"/>
-        <Class IRI="#Competencia"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#desarrolladoPorEjercicio"/>
-        <Class IRI="#Competencia"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#determinaActividad"/>
-        <Class IRI="#EstiloDeAprendizaje"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#determinaCalendario"/>
-        <Class IRI="#EstiloDeAprendizaje"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#determinaCompetencia"/>
-        <Class IRI="#EstiloDeAprendizaje"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#determinaEjercicio"/>
-        <Class IRI="#EstiloDeAprendizaje"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
-        <Class IRI="#Ejercicio"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#perteneceArea"/>
-        <Class IRI="#Contenido"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#perteneceCalendario"/>
-        <Class IRI="#Actividad"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#perteneceContenido"/>
-        <Class IRI="#Ejercicio"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#pertenecePersona"/>
-        <Class IRI="#EstiloDeAprendizaje"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#representaActividad"/>
-        <Class IRI="#Pictograma"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#representaComunicacion"/>
-        <Class IRI="#Pictograma"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#representaEjercicio"/>
-        <Class IRI="#Pictograma"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneActividad"/>
-        <Class IRI="#Calendario"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneCompetencia"/>
-        <Class IRI="#Area"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneCompetencia"/>
-        <Class IRI="#Persona"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneContenido"/>
-        <Class IRI="#Area"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneEjercicio"/>
-        <Class IRI="#Contenido"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneEstiloDeAprendizaje"/>
-        <Class IRI="#Persona"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tienePictograma"/>
-        <Class IRI="#Comunicacion"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tienePictograma"/>
-        <Class IRI="#Ejercicio"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#desarrollaCompetencia"/>
-        <Class IRI="#Competencia"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#desarrolladaPorPersona"/>
-        <Class IRI="#Persona"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#desarrolladoPorEjercicio"/>
-        <Class IRI="#Ejercicio"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#determinaActividad"/>
-        <Class IRI="#Actividad"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#determinaCalendario"/>
-        <Class IRI="#Calendario"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#determinaCompetencia"/>
-        <Class IRI="#Competencia"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#determinaEjercicio"/>
-        <Class IRI="#Ejercicio"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#determinadoPorEstiloDeAprendizaje"/>
-        <Class IRI="#EstiloDeAprendizaje"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#perteneceArea"/>
-        <Class IRI="#Area"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#perteneceCalendario"/>
-        <Class IRI="#Calendario"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#perteneceContenido"/>
-        <Class IRI="#Contenido"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#pertenecePersona"/>
-        <Class IRI="#Persona"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#representaActividad"/>
-        <Class IRI="#Actividad"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#representaComunicacion"/>
-        <Class IRI="#Comunicacion"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#representaEjercicio"/>
-        <Class IRI="#Ejercicio"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneActividad"/>
-        <Class IRI="#Actividad"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneCompetencia"/>
-        <Class IRI="#Competencia"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneContenido"/>
-        <Class IRI="#Contenido"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneEjercicio"/>
-        <Class IRI="#Ejercicio"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneEstiloDeAprendizaje"/>
-        <Class IRI="#EstiloDeAprendizaje"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tienePictograma"/>
-        <Class IRI="#Pictograma"/>
-    </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#Caracteristica"/>
         <Class IRI="#Persona"/>
@@ -4856,6 +4726,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Batata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Bañarse</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Bañarse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Bañarse</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Bañarse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Bañarse</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Bañarse</Literal>
@@ -5237,6 +5117,36 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Ciclismo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#CienciasNaturales</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">CienciasNaturaleses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#CienciasNaturales</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">CienciasNaturales</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#CienciasNaturales</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">CienciasNaturales</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#CienciasSociales</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">CienciasSocialeses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#CienciasSociales</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">CienciasSociales</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#CienciasSociales</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">CienciasSociales</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Cienpies</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Cienpies</Literal>
@@ -5342,16 +5252,6 @@
         <Literal datatypeIRI="&xsd;string">Sustancia solida que se come y sirve de alimento</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Competencia</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Competencias</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Competencia</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Competencia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Computadora</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Computadora</Literal>
@@ -5380,41 +5280,6 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Condor</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Condor</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#Sinonimo"/>
-        <IRI>#Contenido</IRI>
-        <Literal datatypeIRI="&xsd;string">tema</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Contenido</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Contenidoes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Contenido</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Contenido</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#Contenido</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Contenido</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#Contenido</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Contenidoes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#Contenido</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Contenidoed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Contenido</IRI>
-        <Literal datatypeIRI="&xsd;string">Se utilizan para organizar todos los materiales de contenido de las areas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5568,6 +5433,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Despues</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Destino</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Destinoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Destino</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Destino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
         <IRI>#Dia</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Dia</Literal>
@@ -5636,6 +5511,31 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
         <IRI>#Edad</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Edaded</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#EducacionArtistica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">EducacionArtisticas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#EducacionArtistica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">EducacionArtistica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#EducacionArtistica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">EducacionArtistica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#EducacionFIsica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">EducacionFIsicas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#EducacionFIsica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">EducacionFIsica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
@@ -5833,31 +5733,6 @@
         <Literal datatypeIRI="&xsd;string">Período del año caracterizado por algo, especialmente por determinadas condiciones atmosféricas, o destinado a cierta actividad</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#Sinonimo"/>
-        <IRI>#EstiloDeAprendizaje</IRI>
-        <Literal datatypeIRI="&xsd;string">manera de aprender, forma de aprender, metodo para aprender, procedimiento para aprender</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#EstiloDeAprendizaje</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">EstiloDeAprendizajes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#EstiloDeAprendizaje</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">EstiloDeAprendizaje</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#EstiloDeAprendizaje</IRI>
-        <Literal datatypeIRI="&xsd;string">Conjunto de características pedagógicas y cognitivas que suelen expresarse conjuntamente cuando una persona debe enfrentar una situación de aprendizaje</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#EstiloDeAprendizaje</IRI>
-        <Literal datatypeIRI="&xsd;string">Son los rasgos cognitivos, afectivos y fisiológicos que sirven como indicadores relativamente estables, de cómo el alumno percibe interacciones y responde a su ambiente de aprendizaje</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Estufa</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Estufa</Literal>
@@ -5936,6 +5811,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Forma</IRI>
         <Literal datatypeIRI="&xsd;string">Característica de una figura geométrica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#FormacionEticayCiudadana</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">FormacionEticayCiudadanas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#FormacionEticayCiudadana</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">FormacionEticayCiudadana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#FormacionEticayCiudadana</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">FormacionEticayCiudadana</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6098,9 +5988,29 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Habitacion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#HacerCaca</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">HacerCacas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#HacerCaca</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">HacerCaca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#HacerCaca</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">HacerCaca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#HacerPis</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">HacerPises</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#HacerPis</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">HacerPis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6146,6 +6056,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Hermano</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Hermano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Higiene</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Higienes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Higiene</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Higiene</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6383,9 +6303,29 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Lavarropa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#LavarseElCabello</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LavarseElCabelloes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#LavarseElCabello</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LavarseElCabello</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#LavarseElCabello</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">LavarseElCabello</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#LavarseLaCara</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LavarseLaCaras</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#LavarseLaCara</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LavarseLaCara</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6393,9 +6333,29 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">LavarseLaCara</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#LavarseLasManos</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LavarseLasManoses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#LavarseLasManos</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LavarseLasManos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#LavarseLasManos</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">LavarseLasManos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#LavarseLosDientes</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LavarseLosDienteses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#LavarseLosDientes</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LavarseLosDientes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6411,6 +6371,21 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Lejos</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Lejos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Lengua</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Lenguas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Lengua</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Lengua</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Lengua</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Lengua</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6431,11 +6406,6 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Limon</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Limon</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#LimpiarseLaCola</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">LimpiarseLaCola</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6588,6 +6558,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Mate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Matematica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Matematicas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Matematica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Matematica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Matematica</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Matematica</Literal>
@@ -6626,6 +6606,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Melon</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Melon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Merendar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Merendars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Merendar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Merendar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7033,6 +7023,26 @@
         <Literal datatypeIRI="&xsd;string">Componentes del cuerpo humano</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#ParteDeAbajo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ParteDeAbajoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#ParteDeAbajo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ParteDeAbajo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#ParteDeArriba</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ParteDeArribas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#ParteDeArriba</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ParteDeArriba</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#PasadoMañana</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">PasadoMañana</Literal>
@@ -7283,6 +7293,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Pregunta</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Preparar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Preparars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Preparar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Preparar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Prima</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Prima</Literal>
@@ -7444,6 +7464,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Sabado</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Salida</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Salidas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Salida</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Salida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Saltamontes</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Saltamontes</Literal>
@@ -7477,11 +7507,6 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Secarropa</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Secarropa</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#SecarseElCuerpo</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">SecarseElCuerpo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7652,6 +7677,21 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Teatro</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Teatro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Tecnologia</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tecnologias</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Tecnologia</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tecnologia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Tecnologia</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tecnologia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7969,6 +8009,16 @@
         <Literal datatypeIRI="&xsd;string">Conjunto de prendas de vestir y de adornos que una persona viste</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Vestirse</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Vestirses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Vestirse</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Vestirse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Veterinaria</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Veterinaria</Literal>
@@ -8068,321 +8118,6 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Zorro</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Zorro</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#desarrollaCompetencia</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">desarrollaCompetencia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#desarrollaCompetencia</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">desarrollaCompetencias</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#desarrollaCompetencia</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">desarrollaCompetenciaed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#desarrolladaPorPersona</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">desarrolladaPorPersona</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#desarrolladaPorPersona</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">desarrolladaPorPersonas</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#desarrolladaPorPersona</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">desarrolladaPorPersonaed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#desarrolladoPorEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">desarrolladoPorEjercicio</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#desarrolladoPorEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">desarrolladoPorEjercicioes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#desarrolladoPorEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">desarrolladoPorEjercicioed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#determinaActividad</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaActividad</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#determinaActividad</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaActividads</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#determinaActividad</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaActividaded</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#determinaCalendario</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaCalendario</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#determinaCalendario</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaCalendarioes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#determinaCalendario</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaCalendarioed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#determinaCompetencia</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaCompetencia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#determinaCompetencia</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaCompetencias</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#determinaCompetencia</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaCompetenciaed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#determinaEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaEjercicio</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#determinaEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaEjercicioes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#determinaEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinaEjercicioed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#determinadoPorEstiloDeAprendizaje</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinadoPorEstiloDeAprendizaje</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#determinadoPorEstiloDeAprendizaje</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinadoPorEstiloDeAprendizajes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#determinadoPorEstiloDeAprendizaje</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">determinadoPorEstiloDeAprendizajed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#perteneceArea</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">perteneceArea</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#perteneceArea</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">perteneceAreas</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#perteneceArea</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">perteneceAreaed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#perteneceCalendario</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">perteneceCalendario</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#perteneceCalendario</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">perteneceCalendarioes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#perteneceCalendario</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">perteneceCalendarioed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#perteneceContenido</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">perteneceContenido</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#perteneceContenido</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">perteneceContenidoes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#perteneceContenido</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">perteneceContenidoed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#pertenecePersona</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">pertenecePersona</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#pertenecePersona</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">pertenecePersonas</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#pertenecePersona</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">pertenecePersonaed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#representaActividad</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">representaActividad</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#representaActividad</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">representaActividads</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#representaActividad</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">representaActividaded</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#representaComunicacion</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">representaComunicacion</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#representaComunicacion</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">representaComunicacions</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#representaComunicacion</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">representaComunicacioned</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#representaEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">representaEjercicio</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#representaEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">representaEjercicioes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#representaEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">representaEjercicioed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#tieneActividad</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneActividad</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#tieneActividad</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneActividads</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#tieneActividad</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneActividaded</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#tieneCompetencia</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneCompetencia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#tieneCompetencia</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneCompetencias</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#tieneCompetencia</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneCompetenciaed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#tieneContenido</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneContenido</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#tieneContenido</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneContenidoes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#tieneContenido</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneContenidoed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#tieneEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneEjercicio</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#tieneEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneEjercicioes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#tieneEjercicio</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneEjercicioed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#tieneEstiloDeAprendizaje</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneEstiloDeAprendizaje</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#tieneEstiloDeAprendizaje</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneEstiloDeAprendizajes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#tieneEstiloDeAprendizaje</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tieneEstiloDeAprendizajed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#tienePictograma</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tienePictograma</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#tienePictograma</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tienePictogramas</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#tienePictograma</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">tienePictogramaed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
