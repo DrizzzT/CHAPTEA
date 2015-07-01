@@ -143,6 +143,9 @@
         <Class IRI="#Golosina"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Guarnicion"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#HacerCaca"/>
     </Declaration>
     <Declaration>
@@ -185,10 +188,16 @@
         <Class IRI="#Matematica"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Mayuscula"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Merendar"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minuscula"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mueble"/>
@@ -249,6 +258,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Pronombre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puntuacion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Recreacion"/>
@@ -381,6 +393,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ajedrez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alcohol"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Alfajor"/>
@@ -1586,6 +1601,9 @@
         <NamedIndividual IRI="#Tacto"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Tallarin"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Tamales"/>
     </Declaration>
     <Declaration>
@@ -1659,6 +1677,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Torta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TortaFrita"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tractor"/>
@@ -1955,6 +1976,10 @@
         <Class IRI="#Comida"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Guarnicion"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#HacerCaca"/>
         <Class IRI="#Higiene"/>
     </SubClassOf>
@@ -2011,12 +2036,20 @@
         <Class IRI="#Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Mayuscula"/>
+        <Class IRI="#Abecedario"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Merendar"/>
         <Class IRI="#Alimentacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mes"/>
         <Class IRI="#Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minuscula"/>
+        <Class IRI="#Abecedario"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mueble"/>
@@ -2089,6 +2122,10 @@
     <SubClassOf>
         <Class IRI="#Pronombre"/>
         <Class IRI="#Personas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puntuacion"/>
+        <Class IRI="#Abecedario"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Recreacion"/>
@@ -2223,12 +2260,12 @@
         <NamedIndividual IRI="#Ajedrez"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Golosina"/>
-        <NamedIndividual IRI="#Alfajor"/>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#Alcohol"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Almorzar"/>
+        <Class IRI="#Golosina"/>
+        <NamedIndividual IRI="#Alfajor"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Cualidad"/>
@@ -2551,10 +2588,6 @@
         <NamedIndividual IRI="#Cantar"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Pasta"/>
-        <NamedIndividual IRI="#Capeletinis"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Golosina"/>
         <NamedIndividual IRI="#Caramelo"/>
     </ClassAssertion>
@@ -2585,10 +2618,6 @@
     <ClassAssertion>
         <Class IRI="#Electrodomestico"/>
         <NamedIndividual IRI="#Celular"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Cenar"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Aseo"/>
@@ -2767,10 +2796,6 @@
         <NamedIndividual IRI="#Dentro"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Desayunar"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Temporal"/>
         <NamedIndividual IRI="#Despues"/>
     </ClassAssertion>
@@ -2831,10 +2856,6 @@
         <NamedIndividual IRI="#Ellos"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Empanada"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Sentimiento"/>
         <NamedIndividual IRI="#Enamorado"/>
     </ClassAssertion>
@@ -2849,10 +2870,6 @@
     <ClassAssertion>
         <Class IRI="#Sentimiento"/>
         <NamedIndividual IRI="#Enojado"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Ensalada"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Postre"/>
@@ -3203,10 +3220,6 @@
         <NamedIndividual IRI="#Leche"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Lechuga"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Verdura"/>
         <NamedIndividual IRI="#Lechuga"/>
     </ClassAssertion>
@@ -3327,10 +3340,6 @@
         <NamedIndividual IRI="#Marzo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Pan"/>
-        <NamedIndividual IRI="#Masita"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Carne"/>
         <NamedIndividual IRI="#Matambre"/>
     </ClassAssertion>
@@ -3377,10 +3386,6 @@
     <ClassAssertion>
         <Class IRI="#Fruta"/>
         <NamedIndividual IRI="#Melon"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Merendar"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Mueble"/>
@@ -3695,10 +3700,6 @@
         <NamedIndividual IRI="#Pollo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Sandwich"/>
-        <NamedIndividual IRI="#Pollo"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Fruta"/>
         <NamedIndividual IRI="#Pomelo"/>
     </ClassAssertion>
@@ -3729,10 +3730,6 @@
     <ClassAssertion>
         <Class IRI="#Accesorio"/>
         <NamedIndividual IRI="#Pulsera"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Pure"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Pasta"/>
@@ -3879,20 +3876,12 @@
         <NamedIndividual IRI="#Supermercado"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Tacos"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Sentido"/>
         <NamedIndividual IRI="#Tacto"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Tamales"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Tarta"/>
+        <Class IRI="#Pasta"/>
+        <NamedIndividual IRI="#Tallarin"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Bebida"/>
@@ -3983,6 +3972,10 @@
         <NamedIndividual IRI="#Torta"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Pan"/>
+        <NamedIndividual IRI="#TortaFrita"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Transporte"/>
         <NamedIndividual IRI="#Tractor"/>
     </ClassAssertion>
@@ -4049,14 +4042,6 @@
     <ClassAssertion>
         <Class IRI="#Profesion"/>
         <NamedIndividual IRI="#Verdulero"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Comida"/>
-        <NamedIndividual IRI="#Verdura"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sandwich"/>
-        <NamedIndividual IRI="#Verdura"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sentimiento"/>
@@ -4440,6 +4425,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Alcohol</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Alcohol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Alfajor</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Alfajor</Literal>
     </AnnotationAssertion>
@@ -4463,6 +4453,16 @@
         <IRI>#Alimentacion</IRI>
         <Literal datatypeIRI="&xsd;string">Acto de ingerir alimentos
 </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Almorzar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Almorzars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Almorzar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Almorzar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5052,6 +5052,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Celular</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Cenar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cenars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Cenar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cenar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Cenar</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Cenar</Literal>
@@ -5282,6 +5292,21 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Condor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
+        <IRI>#Contenido</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Contenido</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
+        <IRI>#Contenido</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Contenidoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
+        <IRI>#Contenido</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Contenidoed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Cordero</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Cordero</Literal>
@@ -5411,6 +5436,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Deporte</IRI>
         <Literal datatypeIRI="&xsd;string">Actividad fisica, ejercida como juego o competicion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Desayunar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Desayunars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Desayunar</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Desayunar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5978,6 +6013,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Grito</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Guarnicion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Guarnicions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Guarnicion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Guarnicion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Gusto</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Gusto</Literal>
@@ -6409,6 +6454,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#LimpiarseLaCola</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LimpiarseLaCola</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Limpio</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Limpio</Literal>
     </AnnotationAssertion>
@@ -6583,6 +6633,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Mayo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Mayuscula</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Mayusculas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Mayuscula</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Mayuscula</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Mañana</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Mañana</Literal>
@@ -6691,6 +6751,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Milanesa</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Milanesa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Minuscula</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Minusculas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Minuscula</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Minuscula</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7358,6 +7428,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Pulsera</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Puntuacion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Puntuacions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Puntuacion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Puntuacion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Pure</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Pure</Literal>
@@ -7510,6 +7590,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#SecarseElCuerpo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SecarseElCuerpo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#SecarseLasManos</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">SecarseLasManos</Literal>
     </AnnotationAssertion>
@@ -7637,6 +7722,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Tacto</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Tacto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Tallarin</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tallarin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7822,6 +7912,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Torta</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Torta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#TortaFrita</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">TortaFrita</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
