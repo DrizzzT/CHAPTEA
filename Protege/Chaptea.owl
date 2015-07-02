@@ -782,6 +782,12 @@
         <NamedIndividual IRI="#BuenosDias"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Buho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buitre"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#C"/>
     </Declaration>
     <Declaration>
@@ -800,10 +806,16 @@
         <NamedIndividual IRI="#Cabra"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Cacatua"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Cadera"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cafe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caiman"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Calamar"/>
@@ -834,6 +846,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Campera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cangrejo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cansado"/>
@@ -923,6 +941,9 @@
         <NamedIndividual IRI="#Cigarra"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Cigueña"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Cine"/>
     </Declaration>
     <Declaration>
@@ -930,6 +951,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ciruela"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cisne"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Clavel"/>
@@ -941,13 +965,22 @@
         <NamedIndividual IRI="#Cocina"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Cocodrilo"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Codo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Codorniz"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cola"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Colectivo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colibri"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Comedor"/>
@@ -978,6 +1011,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cucaracha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuervo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cuidado"/>
@@ -1130,6 +1166,9 @@
         <NamedIndividual IRI="#Flaco"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Flamenco"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Flan"/>
     </Declaration>
     <Declaration>
@@ -1175,6 +1214,9 @@
         <NamedIndividual IRI="#Gato"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Gaviota"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Gelatina"/>
     </Declaration>
     <Declaration>
@@ -1193,6 +1235,9 @@
         <NamedIndividual IRI="#Gordo"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Gorrion"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Gracias"/>
     </Declaration>
     <Declaration>
@@ -1206,6 +1251,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Grito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grulla"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gusto"/>
@@ -1245,6 +1293,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Higo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hipopotoma"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Hoja"/>
@@ -1316,6 +1367,9 @@
         <NamedIndividual IRI="#Kiwi"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Langosta"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Lapicera"/>
     </Declaration>
     <Declaration>
@@ -1347,6 +1401,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Leon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LeonMarino"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Levantarse"/>
@@ -1541,6 +1598,9 @@
         <NamedIndividual IRI="#Mucho"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Murcielago"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Musculosa"/>
     </Declaration>
     <Declaration>
@@ -1670,6 +1730,9 @@
         <NamedIndividual IRI="#Pecho"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Pelicano"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Pera"/>
     </Declaration>
     <Declaration>
@@ -1725,6 +1788,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pollera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pollito"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pollo"/>
@@ -1815,6 +1881,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sabado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salamandra"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Salmon"/>
@@ -2000,6 +2069,9 @@
         <NamedIndividual IRI="#UNO"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Urraca"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Ustedes"/>
     </Declaration>
     <Declaration>
@@ -2102,6 +2174,9 @@
         <NamedIndividual IRI="#c"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#cigueña"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#¿Como?"/>
     </Declaration>
     <Declaration>
@@ -2136,6 +2211,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ñoquis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ñandu"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#Sinonimo"/>
@@ -3081,6 +3159,14 @@
         <NamedIndividual IRI="#BuenosDias"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Buho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Buitre"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Abecedario"/>
         <NamedIndividual IRI="#C"/>
     </ClassAssertion>
@@ -3105,12 +3191,20 @@
         <NamedIndividual IRI="#Cabra"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Cacatua"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Cadera"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Bebida"/>
         <NamedIndividual IRI="#Cafe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#Caiman"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Acuatico"/>
@@ -3131,6 +3225,14 @@
     <ClassAssertion>
         <Class IRI="#Actividad"/>
         <NamedIndividual IRI="#Cambiarse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Canario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#Cangrejo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sentimiento"/>
@@ -3245,6 +3347,10 @@
         <NamedIndividual IRI="#Cigarra"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Cigueña"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Lugar"/>
         <NamedIndividual IRI="#Cine"/>
     </ClassAssertion>
@@ -3255,6 +3361,14 @@
     <ClassAssertion>
         <Class IRI="#Fruta"/>
         <NamedIndividual IRI="#Ciruela"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#Cisne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Cisne"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Planta"/>
@@ -3273,8 +3387,16 @@
         <NamedIndividual IRI="#Cocina"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#Cocodrilo"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Codo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Codorniz"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ParteExterior"/>
@@ -3283,6 +3405,10 @@
     <ClassAssertion>
         <Class IRI="#Transporte"/>
         <NamedIndividual IRI="#Colectivo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Colibri"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Hogar"/>
@@ -3323,6 +3449,10 @@
     <ClassAssertion>
         <Class IRI="#Insecto"/>
         <NamedIndividual IRI="#Cucaracha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Cuervo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Expresion"/>
@@ -3505,6 +3635,14 @@
         <NamedIndividual IRI="#Flaco"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#Flamenco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Flamenco"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Postre"/>
         <NamedIndividual IRI="#Flan"/>
     </ClassAssertion>
@@ -3541,8 +3679,16 @@
         <NamedIndividual IRI="#Galleta"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Gallina"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#VideoJuegos"/>
         <NamedIndividual IRI="#GameBoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Ganzo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Hogar"/>
@@ -3555,6 +3701,10 @@
     <ClassAssertion>
         <Class IRI="#Terrestre"/>
         <NamedIndividual IRI="#Gato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Gaviota"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Postre"/>
@@ -3581,6 +3731,10 @@
         <NamedIndividual IRI="#Gordo"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Gorrion"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Expresion"/>
         <NamedIndividual IRI="#Gracias"/>
     </ClassAssertion>
@@ -3599,6 +3753,10 @@
     <ClassAssertion>
         <Class IRI="#Expresion"/>
         <NamedIndividual IRI="#Grito"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Grulla"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sentido"/>
@@ -3655,6 +3813,10 @@
     <ClassAssertion>
         <Class IRI="#Fruta"/>
         <NamedIndividual IRI="#Higo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#Hipopotoma"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Utiles"/>
@@ -3745,6 +3907,10 @@
         <NamedIndividual IRI="#Kiwi"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#Langosta"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Utiles"/>
         <NamedIndividual IRI="#Lapicera"/>
     </ClassAssertion>
@@ -3787,6 +3953,10 @@
     <ClassAssertion>
         <Class IRI="#Terrestre"/>
         <NamedIndividual IRI="#Leon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#LeonMarino"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Actividad"/>
@@ -4029,6 +4199,10 @@
         <NamedIndividual IRI="#Mucho"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Murcielago"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Muñeca"/>
     </ClassAssertion>
@@ -4185,8 +4359,20 @@
         <NamedIndividual IRI="#Patio"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#Pato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#PavoReal"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Pecho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Pelicano"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Fruta"/>
@@ -4225,6 +4411,10 @@
         <NamedIndividual IRI="#Ping_pong"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#Pinguino"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Recreacion"/>
         <NamedIndividual IRI="#Pintar"/>
     </ClassAssertion>
@@ -4255,6 +4445,10 @@
     <ClassAssertion>
         <Class IRI="#Insecto"/>
         <NamedIndividual IRI="#Polilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Pollito"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Carne"/>
@@ -4359,6 +4553,10 @@
     <ClassAssertion>
         <Class IRI="#Semana"/>
         <NamedIndividual IRI="#Sabado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#Salamandra"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Acuatico"/>
@@ -4585,6 +4783,10 @@
         <NamedIndividual IRI="#UNO"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#Urraca"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Pronombre"/>
         <NamedIndividual IRI="#Ustedes"/>
     </ClassAssertion>
@@ -4713,6 +4915,10 @@
         <NamedIndividual IRI="#c"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TerrestreAcuatico"/>
+        <NamedIndividual IRI="#cigueña"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Pregunta"/>
         <NamedIndividual IRI="#¿Como?"/>
     </ClassAssertion>
@@ -4759,6 +4965,10 @@
     <ClassAssertion>
         <Class IRI="#Pasta"/>
         <NamedIndividual IRI="#Ñoquis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TerrestreAereo"/>
+        <NamedIndividual IRI="#ñandu"/>
     </ClassAssertion>
     <DataPropertyDomain>
         <DataProperty IRI="#Caracteristica"/>
@@ -5546,6 +5756,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Buho</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Buho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Buitre</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Buitre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#C</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C</Literal>
     </AnnotationAssertion>
@@ -5576,6 +5796,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Cacatua</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cacatua</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Cadera</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Cadera</Literal>
     </AnnotationAssertion>
@@ -5583,6 +5808,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Cafe</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Cafe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Caiman</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Caiman</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5693,6 +5923,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
         <IRI>#Camping</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Camping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Canario</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Canario</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Cangrejo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cangrejo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5926,6 +6166,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Cigueña</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cigueña</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Cine</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Cine</Literal>
     </AnnotationAssertion>
@@ -5938,6 +6183,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Ciruela</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Ciruela</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Cisne</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cisne</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -5986,8 +6236,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Cocodrilo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cocodrilo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Codo</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Codo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Codorniz</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Codorniz</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5998,6 +6258,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Colectivo</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Colectivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Colibri</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Colibri</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -6154,6 +6419,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Cuerpo</IRI>
         <Literal datatypeIRI="&xsd;string">El cuerpo humano es la estructura física y material del ser humano. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Cuervo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cuervo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6697,6 +6967,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Flamenco</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Flamenco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Flan</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Flan</Literal>
     </AnnotationAssertion>
@@ -6812,6 +7087,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Gaviota</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Gaviota</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Gelatina</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Gelatina</Literal>
     </AnnotationAssertion>
@@ -6872,6 +7152,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Gorrion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Gorrion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Gracias</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Gracias</Literal>
     </AnnotationAssertion>
@@ -6909,6 +7194,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Grito</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Grito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Grulla</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Grulla</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -7024,6 +7314,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Higo</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Higo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Hipopotoma</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Hipopotoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
@@ -7322,6 +7617,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Langosta</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Langosta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Lapicera</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Lapicera</Literal>
     </AnnotationAssertion>
@@ -7424,6 +7724,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Leon</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Leon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#LeonMarino</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LeonMarino</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7912,6 +8217,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Murcielago</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Murcielago</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Musculosa</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Musculosa</Literal>
     </AnnotationAssertion>
@@ -8277,6 +8587,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Pelicano</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Pelicano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Pera</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Pera</Literal>
     </AnnotationAssertion>
@@ -8484,6 +8799,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Pollera</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Pollera</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Pollito</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Pollito</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -8755,6 +9075,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Sabado</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Sabado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Salamandra</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Salamandra</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -9293,6 +9618,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Urraca</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Urraca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Ustedes</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Ustedes</Literal>
     </AnnotationAssertion>
@@ -9573,6 +9903,11 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">calzado</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#cigueña</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">cigueña</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#operacion</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">operacions</Literal>
@@ -9641,6 +9976,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Ñoquis</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Ñoquis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#ñandu</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ñandu</Literal>
     </AnnotationAssertion>
 </Ontology>
 
