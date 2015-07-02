@@ -23,10 +23,19 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#1-10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10+"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Abecedario"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Accesorio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accesorios"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Actividad"/>
@@ -35,7 +44,10 @@
         <Class IRI="#Acuatico"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Aereos"/>
+        <Class IRI="#Adjetivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adverbio"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Alimentacion"/>
@@ -53,6 +65,9 @@
         <Class IRI="#Aseo"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AseoHigiene"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Bañarse"/>
     </Declaration>
     <Declaration>
@@ -62,19 +77,37 @@
         <Class IRI="#Calendario"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Calle"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Calzado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cantidad"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Carne"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Casa"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cenar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cielo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CienciasNaturales"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CienciasSociales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clasificacion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Clima"/>
@@ -98,13 +131,22 @@
         <Class IRI="#Deporte"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Deportista"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Desayunar"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Descriptivo"/>
+        <Class IRI="#Destino"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Destino"/>
+        <Class IRI="#Dinero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disfraces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documentos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EducacionArtistica"/>
@@ -113,10 +155,19 @@
         <Class IRI="#EducacionFIsica"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#EducacionFisica"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Ejercicio"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Electrodomestico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enfermedad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entretenimiento"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Escuela"/>
@@ -128,7 +179,16 @@
         <Class IRI="#Estacion"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Evento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exclamativo"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Expresion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Femenino"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Forma"/>
@@ -138,6 +198,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Fruta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generales"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Golosina"/>
@@ -152,19 +218,46 @@
         <Class IRI="#HacerPis"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Herramienta"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Higiene"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Hogar"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Hora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imagenes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indefinido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informatica"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Insecto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstrumentosDeAyuda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstrumentosMusicales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interseccion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#JuegosDeMesa"/>
     </Declaration>
     <Declaration>
         <Class IRI="#JuegosDeSalon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juguetes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#LavarseElCabello"/>
@@ -182,10 +275,28 @@
         <Class IRI="#Lengua"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Limpieza"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Lugar"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#LugarNatural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lugares"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MalasAcciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masculino"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Matematica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialesDeConstruccion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mayuscula"/>
@@ -203,7 +314,10 @@
         <Class IRI="#Mueble"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Mujer"/>
+        <Class IRI="#Naturaleza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Navidad"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Numero"/>
@@ -218,13 +332,16 @@
         <Class IRI="#Parentesco"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Parte"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ParteDeAbajo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ParteDeArriba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParteExterior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParteInterior"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pasta"/>
@@ -236,13 +353,25 @@
         <Class IRI="#Personaje"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Personal"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Personas"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pictograma"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Planeta"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Planta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Playa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Posesivo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Postre"/>
@@ -257,6 +386,9 @@
         <Class IRI="#Profesion"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Prohibiciones"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Pronombre"/>
     </Declaration>
     <Declaration>
@@ -266,10 +398,19 @@
         <Class IRI="#Recreacion"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Religion"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Salida"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Salud"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sanitario"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Semana"/>
@@ -281,6 +422,9 @@
         <Class IRI="#Sentimiento"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Señalectica"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Tecnologia"/>
     </Declaration>
     <Declaration>
@@ -290,13 +434,31 @@
         <Class IRI="#Terrestre"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#TerrestreAcuatico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerrestreAereo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tiempo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transito"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Transporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utensillo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Utiles"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Varon"/>
+        <Class IRI="#Varios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehiculos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Verdura"/>
@@ -309,6 +471,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#VideoJuegos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#calzado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operacion"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Caracteristica"/>
@@ -1832,6 +2000,14 @@
         <AnnotationProperty IRI="#Sinonimo"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#1-10"/>
+        <Class IRI="#Numero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10+"/>
+        <Class IRI="#Numero"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Abecedario"/>
         <Class IRI="#Pictograma"/>
     </SubClassOf>
@@ -1840,12 +2016,20 @@
         <Class IRI="#Vestimenta"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Acuatico"/>
-        <Class IRI="#Animal"/>
+        <Class IRI="#Accesorios"/>
+        <Class IRI="#Transporte"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Aereos"/>
-        <Class IRI="#Animal"/>
+        <Class IRI="#Acuatico"/>
+        <Class IRI="#Clasificacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adjetivo"/>
+        <Class IRI="#Comunicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adverbio"/>
+        <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Alimentacion"/>
@@ -1857,11 +2041,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Animal"/>
-        <Class IRI="#Objeto"/>
+        <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Aseo"/>
         <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AseoHigiene"/>
+        <Class IRI="#Objeto"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bañarse"/>
@@ -1872,16 +2060,36 @@
         <Class IRI="#Comida"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Calle"/>
+        <Class IRI="#Lugar"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Calzado"/>
-        <Class IRI="#Vestimenta"/>
+        <Class IRI="#Masculino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camping"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cantidad"/>
+        <Class IRI="#Adverbio"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Carne"/>
         <Class IRI="#Comida"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Casa"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Cenar"/>
         <Class IRI="#Alimentacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cielo"/>
+        <Class IRI="#Naturaleza"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CienciasNaturales"/>
@@ -1892,12 +2100,16 @@
         <Class IRI="#Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Clasificacion"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Clima"/>
-        <Class IRI="#Descriptivo"/>
+        <Class IRI="#Naturaleza"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Color"/>
-        <Class IRI="#Descriptivo"/>
+        <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Comida"/>
@@ -1920,16 +2132,28 @@
         <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Deportista"/>
+        <Class IRI="#Personas"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Desayunar"/>
         <Class IRI="#Alimentacion"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Descriptivo"/>
-        <Class IRI="#Pictograma"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Destino"/>
         <Class IRI="#Salida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinero"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disfraces"/>
+        <Class IRI="#Vestimenta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documentos"/>
+        <Class IRI="#Objeto"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EducacionArtistica"/>
@@ -1940,7 +2164,19 @@
         <Class IRI="#Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#EducacionFisica"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Electrodomestico"/>
+        <Class IRI="#Casa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enfermedad"/>
+        <Class IRI="#Cuerpo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entretenimiento"/>
         <Class IRI="#Objeto"/>
     </SubClassOf>
     <SubClassOf>
@@ -1949,19 +2185,31 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Espacial"/>
-        <Class IRI="#Descriptivo"/>
+        <Class IRI="#Adverbio"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Estacion"/>
         <Class IRI="#Temporal"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Evento"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exclamativo"/>
+        <Class IRI="#Pronombre"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Expresion"/>
         <Class IRI="#Comunicacion"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Femenino"/>
+        <Class IRI="#Vestimenta"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Forma"/>
-        <Class IRI="#Descriptivo"/>
+        <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FormacionEticayCiudadana"/>
@@ -1970,6 +2218,14 @@
     <SubClassOf>
         <Class IRI="#Fruta"/>
         <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generales"/>
+        <Class IRI="#Señalectica"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Golosina"/>
@@ -1988,6 +2244,10 @@
         <Class IRI="#Higiene"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Herramienta"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Higiene"/>
         <Class IRI="#Actividad"/>
     </SubClassOf>
@@ -1996,8 +2256,36 @@
         <Class IRI="#Lugar"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Hora"/>
+        <Class IRI="#Temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imagenes"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indefinido"/>
+        <Class IRI="#Pronombre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informatica"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Insecto"/>
-        <Class IRI="#Animal"/>
+        <Class IRI="#Clasificacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InstrumentosDeAyuda"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InstrumentosMusicales"/>
+        <Class IRI="#Recreacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interseccion"/>
+        <Class IRI="#Comunicacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#JuegosDeMesa"/>
@@ -2005,6 +2293,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#JuegosDeSalon"/>
+        <Class IRI="#Recreacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juguetes"/>
         <Class IRI="#Recreacion"/>
     </SubClassOf>
     <SubClassOf>
@@ -2028,12 +2320,36 @@
         <Class IRI="#Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Limpieza"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Lugar"/>
         <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#LugarNatural"/>
+        <Class IRI="#Lugar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lugares"/>
+        <Class IRI="#Señalectica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MalasAcciones"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masculino"/>
+        <Class IRI="#Vestimenta"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Matematica"/>
         <Class IRI="#Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialesDeConstruccion"/>
+        <Class IRI="#Objeto"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mayuscula"/>
@@ -2053,11 +2369,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mueble"/>
-        <Class IRI="#Objeto"/>
+        <Class IRI="#Casa"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Mujer"/>
-        <Class IRI="#Vestimenta"/>
+        <Class IRI="#Naturaleza"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Navidad"/>
+        <Class IRI="#Objeto"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Numero"/>
@@ -2076,16 +2396,20 @@
         <Class IRI="#Personas"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Parte"/>
-        <Class IRI="#Cuerpo"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ParteDeAbajo"/>
         <Class IRI="#Vestirse"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ParteDeArriba"/>
         <Class IRI="#Vestirse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParteExterior"/>
+        <Class IRI="#Cuerpo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParteInterior"/>
+        <Class IRI="#Cuerpo"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pasta"/>
@@ -2096,12 +2420,28 @@
         <Class IRI="#Personas"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Personal"/>
+        <Class IRI="#Pronombre"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Personas"/>
         <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Planeta"/>
+        <Class IRI="#Naturaleza"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Planta"/>
+        <Class IRI="#Naturaleza"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Playa"/>
         <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Posesivo"/>
+        <Class IRI="#Pronombre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Postre"/>
@@ -2120,8 +2460,12 @@
         <Class IRI="#Personas"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Prohibiciones"/>
+        <Class IRI="#Señalectica"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Pronombre"/>
-        <Class IRI="#Personas"/>
+        <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Puntuacion"/>
@@ -2132,12 +2476,24 @@
         <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Religion"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Salida"/>
         <Class IRI="#Actividad"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Salud"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Sandwich"/>
         <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sanitario"/>
+        <Class IRI="#Casa"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Semana"/>
@@ -2152,6 +2508,10 @@
         <Class IRI="#Comunicacion"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Señalectica"/>
+        <Class IRI="#Pictograma"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Tecnologia"/>
         <Class IRI="#Area"/>
     </SubClassOf>
@@ -2161,19 +2521,47 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Terrestre"/>
-        <Class IRI="#Animal"/>
+        <Class IRI="#Clasificacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerrestreAcuatico"/>
+        <Class IRI="#Clasificacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerrestreAereo"/>
+        <Class IRI="#Clasificacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiempo"/>
+        <Class IRI="#Adverbio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transito"/>
+        <Class IRI="#Señalectica"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Transporte"/>
         <Class IRI="#Pictograma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Utensillo"/>
+        <Class IRI="#Casa"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Utiles"/>
         <Class IRI="#Objeto"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Varon"/>
-        <Class IRI="#Vestimenta"/>
+        <Class IRI="#Varios"/>
+        <Class IRI="#Casa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Varios"/>
+        <Class IRI="#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehiculos"/>
+        <Class IRI="#Transporte"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Verdura"/>
@@ -2190,6 +2578,14 @@
     <SubClassOf>
         <Class IRI="#VideoJuegos"/>
         <Class IRI="#Recreacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calzado"/>
+        <Class IRI="#Femenino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operacion"/>
+        <Class IRI="#Numero"/>
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="#Numero"/>
@@ -2248,7 +2644,7 @@
         <NamedIndividual IRI="#Agua"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Aereos"/>
+        <Class IRI="#TerrestreAereo"/>
         <NamedIndividual IRI="#Aguila"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2460,12 +2856,8 @@
         <NamedIndividual IRI="#Blanco"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Boca"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Bombacha"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Profesion"/>
@@ -2484,11 +2876,7 @@
         <NamedIndividual IRI="#Boxeo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Boxer"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Brazo"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2512,11 +2900,11 @@
         <NamedIndividual IRI="#Caballo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Cabello"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Cabeza"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2524,7 +2912,7 @@
         <NamedIndividual IRI="#Cabra"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Cadera"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2534,14 +2922,6 @@
     <ClassAssertion>
         <Class IRI="#Clima"/>
         <NamedIndividual IRI="#Caluroso"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Calza"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Calzoncillo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Mueble"/>
@@ -2554,30 +2934,6 @@
     <ClassAssertion>
         <Class IRI="#Actividad"/>
         <NamedIndividual IRI="#Cambiarse"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Camisa"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Camisa"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Camiseta"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Camiseta"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Campera"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Campera"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sentimiento"/>
@@ -2712,11 +3068,11 @@
         <NamedIndividual IRI="#Cocina"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Codo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Cola"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2736,16 +3092,12 @@
         <NamedIndividual IRI="#Computadora"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Aereos"/>
+        <Class IRI="#TerrestreAereo"/>
         <NamedIndividual IRI="#Condor"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Carne"/>
         <NamedIndividual IRI="#Cordero"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Corpiño"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Forma"/>
@@ -2780,7 +3132,7 @@
         <NamedIndividual IRI="#Dardos"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Dedo"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2896,7 +3248,7 @@
         <NamedIndividual IRI="#Eso"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Espalda"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2948,7 +3300,7 @@
         <NamedIndividual IRI="#FormacionEticayCiudadana"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Frente"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3004,7 +3356,7 @@
         <NamedIndividual IRI="#Generala"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Genital"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3056,7 +3408,7 @@
         <NamedIndividual IRI="#HacerPis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Aereos"/>
+        <Class IRI="#TerrestreAereo"/>
         <NamedIndividual IRI="#Halcon"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3104,7 +3456,7 @@
         <NamedIndividual IRI="#Hola"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Hombro"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3142,14 +3494,6 @@
     <ClassAssertion>
         <Class IRI="#Estacion"/>
         <NamedIndividual IRI="#Invierno"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Jean"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Jean"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#JuegosDeMesa"/>
@@ -3288,7 +3632,7 @@
         <NamedIndividual IRI="#Lombriz"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Aereos"/>
+        <Class IRI="#TerrestreAereo"/>
         <NamedIndividual IRI="#Loro"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3316,7 +3660,7 @@
         <NamedIndividual IRI="#Mandarina"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Mano"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3352,14 +3696,6 @@
         <NamedIndividual IRI="#Matematica"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Maya"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Maya"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Mes"/>
         <NamedIndividual IRI="#Mayo"/>
     </ClassAssertion>
@@ -3370,14 +3706,6 @@
     <ClassAssertion>
         <Class IRI="#Expresion"/>
         <NamedIndividual IRI="#MeGusta"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Media"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Media"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Profesion"/>
@@ -3444,15 +3772,7 @@
         <NamedIndividual IRI="#Moto"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Musculosa"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Musculosa"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Muñeca"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3460,7 +3780,7 @@
         <NamedIndividual IRI="#Naranja"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Nariz"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3520,7 +3840,7 @@
         <NamedIndividual IRI="#Oficial"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Ojo"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3536,7 +3856,7 @@
         <NamedIndividual IRI="#Orca"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Oreja"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3560,11 +3880,11 @@
         <NamedIndividual IRI="#Padre"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Aereos"/>
+        <Class IRI="#TerrestreAereo"/>
         <NamedIndividual IRI="#Pajaro"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Aereos"/>
+        <Class IRI="#TerrestreAereo"/>
         <NamedIndividual IRI="#Paloma"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3574,14 +3894,6 @@
     <ClassAssertion>
         <Class IRI="#Sandwich"/>
         <NamedIndividual IRI="#Pancho"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Pantalon"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Pantalon"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Calzado"/>
@@ -3620,7 +3932,7 @@
         <NamedIndividual IRI="#PavoReal"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Pecho"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3644,11 +3956,11 @@
         <NamedIndividual IRI="#Pez"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Pie"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Pierna"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3680,20 +3992,8 @@
         <NamedIndividual IRI="#Plaza"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Polera"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Polera"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Lugar"/>
         <NamedIndividual IRI="#Policia"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Pollera"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Carne"/>
@@ -3744,14 +4044,6 @@
         <NamedIndividual IRI="#Reloj"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Remera"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Varon"/>
-        <NamedIndividual IRI="#Remera"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Transporte"/>
         <NamedIndividual IRI="#Remis"/>
     </ClassAssertion>
@@ -3764,7 +4056,7 @@
         <NamedIndividual IRI="#ReproductorDeVIdeo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Parte"/>
+        <Class IRI="#ParteExterior"/>
         <NamedIndividual IRI="#Rodilla"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3854,10 +4146,6 @@
     <ClassAssertion>
         <Class IRI="#Mueble"/>
         <NamedIndividual IRI="#Sillon"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#JuegosDeMesa"/>
-        <NamedIndividual IRI="#Simon"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Clima"/>
@@ -3996,7 +4284,7 @@
         <NamedIndividual IRI="#Tu"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Aereos"/>
+        <Class IRI="#TerrestreAereo"/>
         <NamedIndividual IRI="#Tucan"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4046,10 +4334,6 @@
     <ClassAssertion>
         <Class IRI="#Sentimiento"/>
         <NamedIndividual IRI="#Vergonzoso"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Mujer"/>
-        <NamedIndividual IRI="#Vestido"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lugar"/>
@@ -4253,6 +4537,26 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#1-10</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">1-10s</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#1-10</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">1-10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#10+</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">10+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#10+</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">10+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#2</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">2</Literal>
@@ -4323,6 +4627,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Accesorio</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Accesorios</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Accesorioses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Accesorios</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Accesorios</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
         <IRI>#Actividad</IRI>
         <Literal datatypeIRI="&xsd;string">accion</Literal>
@@ -4380,23 +4694,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Aereos</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Aereoses</Literal>
+        <IRI>#Adjetivo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Adjetivoes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Aereos</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Aereos</Literal>
+        <IRI>#Adjetivo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Adjetivo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Aereos</IRI>
-        <Literal datatypeIRI="&xsd;string">Animal que vive en contacto directo con el aire atmosferico</Literal>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Adverbio</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Adverbios</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Aereos</IRI>
-        <Literal datatypeIRI="&xsd;string">Del aire o relacionado con él</Literal>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Adverbio</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Adverbio</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -4634,6 +4948,16 @@
         <IRI>#Aseo</IRI>
         <Literal datatypeIRI="&xsd;string">Limpieza o arreglo de una persona o una cosa
 </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#AseoHigiene</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">AseoHigienes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#AseoHigiene</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">AseoHigiene</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -4907,6 +5231,16 @@
         <Literal datatypeIRI="&xsd;string">Plan ordenado del conjunto de las actividades previstas durante un periodo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Calle</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Calles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Calle</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Calle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Caluroso</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Caluroso</Literal>
@@ -4972,6 +5306,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Campera</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Camping</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Campings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Camping</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Camping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Cansado</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Cansado</Literal>
@@ -4980,6 +5324,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Cantar</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Cantar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Cantidad</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cantidads</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Cantidad</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cantidad</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5030,6 +5384,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Cartuchera</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Cartuchera</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Casa</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Casas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Casa</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Casa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5128,6 +5492,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Cielo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cieloes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Cielo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Cielo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#CienciasNaturales</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">CienciasNaturaleses</Literal>
     </AnnotationAssertion>
@@ -5175,6 +5549,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Ciruela</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Ciruela</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Clasificacion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Clasificacions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Clasificacion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Clasificacion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5439,6 +5823,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Deportista</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Deportistas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Deportista</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Deportista</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#Desayunar</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Desayunars</Literal>
     </AnnotationAssertion>
@@ -5451,16 +5845,6 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Desayunar</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Desayunar</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Descriptivo</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Descriptivoes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Descriptivo</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Descriptivo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5503,9 +5887,39 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Diciembre</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Dinero</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Dineroes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Dinero</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Dinero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Direccion</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Direccion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Disfraces</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Disfraceses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Disfraces</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Disfraces</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Documentos</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Documentoses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Documentos</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Documentos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5571,6 +5985,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
         <IRI>#EducacionFIsica</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">EducacionFIsica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#EducacionFisica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">EducacionFisicas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#EducacionFisica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">EducacionFisica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
@@ -5648,6 +6072,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Enero</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Enfermedad</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Enfermedads</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Enfermedad</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Enfermedad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Enfermero</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Enfermero</Literal>
@@ -5666,6 +6100,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#EnsaladaDeFruta</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">EnsaladaDeFruta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Entretenimiento</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Entretenimientoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Entretenimiento</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Entretenimiento</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5774,6 +6218,26 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Evento</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Eventoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Evento</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Evento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Exclamativo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Exclamativoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Exclamativo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Exclamativo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#Expresion</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Expresions</Literal>
     </AnnotationAssertion>
@@ -5796,6 +6260,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Feliz</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Feliz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Femenino</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Femeninoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Femenino</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Femenino</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -5938,9 +6412,29 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Gelatina</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#General</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#General</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">General</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Generala</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Generala</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Generales</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generaleses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Generales</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generales</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6104,6 +6598,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Herramienta</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Herramientas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Herramienta</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Herramienta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#Higiene</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Higienes</Literal>
     </AnnotationAssertion>
@@ -6151,6 +6655,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Hombro</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Hombro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Hora</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Horas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Hora</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Hora</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
@@ -6213,6 +6727,36 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Iglesia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Imagenes</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Imageneses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Imagenes</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Imagenes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Indefinido</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Indefinidoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Indefinido</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Indefinido</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Informatica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Informaticas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Informatica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Informatica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Ingeniero</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Ingeniero</Literal>
@@ -6241,6 +6785,36 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#InspectorTransito</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">InspectorTransito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#InstrumentosDeAyuda</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">InstrumentosDeAyudas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#InstrumentosDeAyuda</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">InstrumentosDeAyuda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#InstrumentosMusicales</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">InstrumentosMusicaleses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#InstrumentosMusicales</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">InstrumentosMusicales</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Interseccion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Interseccions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Interseccion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Interseccion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6306,6 +6880,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Jugo</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Jugo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Juguetes</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Jugueteses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Juguetes</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Juguetes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6458,6 +7042,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">LimpiarseLaCola</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Limpieza</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Limpiezas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Limpieza</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Limpieza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Limpio</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Limpio</Literal>
@@ -6543,6 +7137,26 @@
         <Literal datatypeIRI="&xsd;string">Porcion de espacio en el que se situa algo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#LugarNatural</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LugarNaturals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#LugarNatural</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">LugarNatural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Lugares</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Lugareses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Lugares</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Lugares</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Lunes</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Lunes</Literal>
@@ -6551,6 +7165,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Maestro</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Maestro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#MalasAcciones</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">MalasAccioneses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#MalasAcciones</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">MalasAcciones</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6593,6 +7217,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Marzo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Masculino</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Hombres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Masculino</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Hombre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Masita</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Masita</Literal>
@@ -6621,6 +7255,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Matematica</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Matematica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#MaterialesDeConstruccion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">MaterialesDeConstruccions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#MaterialesDeConstruccion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">MaterialesDeConstruccion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -6803,26 +7447,6 @@
         <Literal datatypeIRI="&xsd;string">Objeto fabricado en algún material resistente con el que se equipa o se decora el interior de una casa, una oficina u otros locales</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#Sinonimo"/>
-        <IRI>#Mujer</IRI>
-        <Literal datatypeIRI="&xsd;string">dama, señora, muchacha, chica</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Mujer</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Mujers</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Mujer</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Mujer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Mujer</IRI>
-        <Literal datatypeIRI="&xsd;string">Persona de sexo femenino</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Musculosa</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Musculosa</Literal>
@@ -6846,6 +7470,26 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Natacion</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Natacion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Naturaleza</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Naturalezas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Naturaleza</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Naturaleza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Navidad</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Navidads</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Navidad</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Navidad</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7079,21 +7723,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Parte</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Partes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Parte</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Parte</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Parte</IRI>
-        <Literal datatypeIRI="&xsd;string">Componentes del cuerpo humano</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#ParteDeAbajo</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">ParteDeAbajoes</Literal>
     </AnnotationAssertion>
@@ -7111,6 +7740,31 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
         <IRI>#ParteDeArriba</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">ParteDeArriba</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#ParteExterior</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Partes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#ParteExterior</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Parte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParteExterior</IRI>
+        <Literal datatypeIRI="&xsd;string">Componentes del cuerpo humano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#ParteInterior</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ParteInteriors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#ParteInterior</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ParteInterior</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7199,6 +7853,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Personal</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Personals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Personal</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Personal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#Personas</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Personases</Literal>
     </AnnotationAssertion>
@@ -7273,6 +7937,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Placard</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Planeta</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Planetas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Planeta</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Planeta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
         <IRI>#Planta</IRI>
         <Literal datatypeIRI="&xsd;string">vegetal, arbusto</Literal>
@@ -7296,6 +7970,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#PlayStation</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">PlayStation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Playa</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Playas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Playa</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Playa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7336,6 +8020,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#PorFavor</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">PorFavor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Posesivo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Posesivoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Posesivo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Posesivo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -7414,6 +8108,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Prohibiciones</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Prohibicioneses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Prohibiciones</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Prohibiciones</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#Pronombre</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Pronombres</Literal>
     </AnnotationAssertion>
@@ -7477,6 +8181,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Reflexivo</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Reflexivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Religion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Religions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Religion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Religion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7559,6 +8273,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Saltamontes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Salud</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Saluds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Salud</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Salud</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Sandalia</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Sandalia</Literal>
@@ -7577,6 +8301,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
         <IRI>#Sandwich</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Sandwich</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Sanitario</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Sanitarios</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Sanitario</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Sanitario</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7667,6 +8401,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Septiembre</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Septiembre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Señalectica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Señalectica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Señalectica</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Señalectica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7859,6 +8603,36 @@
         <Literal datatypeIRI="&xsd;string">Del planeta Tierra o relacionado con él</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#TerrestreAcuatico</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">TerrestreAcuaticoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#TerrestreAcuatico</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">TerrestreAcuatico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#TerrestreAereo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Aereoses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#TerrestreAereo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Aereos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TerrestreAereo</IRI>
+        <Literal datatypeIRI="&xsd;string">Animal que vive en contacto directo con el aire atmosferico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TerrestreAereo</IRI>
+        <Literal datatypeIRI="&xsd;string">Del aire o relacionado con él</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Tia</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Tia</Literal>
@@ -7867,6 +8641,16 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Tiburon</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Tiburon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Tiempo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tiempoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Tiempo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tiempo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -7929,6 +8713,16 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Tranquilo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Transito</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Transitoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Transito</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Transito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#Sinonimo"/>
         <IRI>#Transporte</IRI>
         <Literal datatypeIRI="&xsd;string">traslado, traslacion</Literal>
@@ -7985,6 +8779,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Utensillo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Utensilloes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Utensillo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Utensillo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#Utiles</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Utileses</Literal>
     </AnnotationAssertion>
@@ -8009,24 +8813,24 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Vaca</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#Sinonimo"/>
-        <IRI>#Varon</IRI>
-        <Literal datatypeIRI="&xsd;string">varon, caballero, chico, señor</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Varon</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Varons</Literal>
+        <IRI>#Varios</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Varios</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Varon</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Varon</Literal>
+        <IRI>#Varios</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Vario</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Varon</IRI>
-        <Literal datatypeIRI="&xsd;string">Persona de sexo masculino</Literal>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#Vehiculos</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Vehiculoses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#Vehiculos</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Vehiculos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
@@ -8213,6 +9017,26 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Zorro</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Zorro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#calzado</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">calzadoes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#calzado</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">calzado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
+        <IRI>#operacion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">operacions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
+        <IRI>#operacion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">operacion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
