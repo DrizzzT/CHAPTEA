@@ -2248,7 +2248,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Adverbio"/>
-        <Class IRI="#Pictograma"/>
+        <Class IRI="#Comunicacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Alimentacion"/>
@@ -2684,7 +2684,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pronombre"/>
-        <Class IRI="#Pictograma"/>
+        <Class IRI="#Comunicacion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Puntuacion"/>
